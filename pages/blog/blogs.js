@@ -8,42 +8,43 @@ export default function Blogs() {
       title: "How to build a successful business",
       heading: "How to build a successful business",
       image: "/blogimage/blog1.jpg",
-      links:"/blog/blog1",
+      links: "/blog/blog1",
     },
     {
       id: 2,
       title: "How to build a successful business",
       heading: "How to build a successful business",
       image: "/blogimage/blog2.jpg",
-      links:"/blog/blog1",
+      links: "/blog/blog1",
     },
     {
       id: 3,
       title: "How to build a successful business",
       heading: "How to build a successful business",
       image: "/blogimage/blog3.jpg",
-      links:"/blog/blog1",
+      links: "/blog/blog1",
     },
     {
       id: 4,
-      title: " Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis of data purposes...................",
+      title:
+        " Machine learning models can use the data stored in the blockchain network for making the prediction or for the analysis of data purposes...................",
       heading: "How is ml related to block chain",
       image: "/blogimage/blog1.jpg",
-      links:"/blog/blog1",
+      links: "/blog/blog1",
     },
     {
       id: 5,
       title: "How to build a successful business",
       heading: "How to build a successful business",
       image: "/blogimage/blog2.jpg",
-      links:"/blog/blog2",
+      links: "/blog/blog2",
     },
     {
       id: 6,
       title: "How to build a successful business",
       heading: "How to build a successful business",
       image: "/blogimage/blog3.jpg",
-      links:"/blog/blog3",
+      links: "/blog/blog3",
     },
   ];
   const blog = [
@@ -87,8 +88,6 @@ export default function Blogs() {
 
   return (
     <>
-      
-
       <section className="text-black bg-coustom1 body-font">
         <div className="container px-5 py-14 mx-auto">
           <div className="flex flex-col flex-wrap text-center w-full mb-20 ">
@@ -117,9 +116,7 @@ export default function Blogs() {
                     <h1 className="title-font sm:text-2xl text-xl text-left  text-gray-900 mb-3">
                       {name}
                     </h1>
-                    <p className="leading-relaxed mt-10 text-left ">
-                      {desc}
-                    </p>
+                    <p className="leading-relaxed mt-10 text-left ">{desc}</p>
                   </div>
                   <div className="flex justify-center mt-6 ">
                     <Link href={"/blog/blogs"}>
@@ -134,8 +131,6 @@ export default function Blogs() {
           </div>
         </div>
       </section>
-
-
     </>
   );
 }

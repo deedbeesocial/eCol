@@ -10,29 +10,12 @@ import "swiper/css/autoplay";
 export default function Slider() {
   const slides = [
     {
-      text1: "Welcome to the future of energy and water management",
-     
+      text1: "Do Good. Do Well.t",
+     text2:"Boost Your Building's Bottom Lines",
       image: "/carosel/welcometothe.png",
       id: "slide1",
     },
-    {
-      text1: "Start your journey towards a profitable and green future",
-      
-      image: "/carosel/startyourjourney (1).png",
-      id: "slide2",
-    },
-    {
-      text1: "Meet your growing energy and water needs while saving costs",
-     
-      image: "/carosel/meetyourenergy.png",
-      id: "slide3",
-    },
-    {
-      text1: "Create sustainable growth stories with better managed infrastructure ",
-      
-      image: "/carosel/createsustainable.png",
-      id: "slide4",
-    },
+   
   ];
 
   return (
@@ -51,7 +34,7 @@ export default function Slider() {
           // onSlideChange={() => console.log('slide change')}
           // onSwiper={(swiper) => console.log(swiper)}
         >
-          {slides.map(({ text1,  image, id }) => (
+          {slides.map(({ text1,  image, id,text2 }) => (
             <SwiperSlide key={id}>
               <div className="h-[65vh] w-full relative flex justify-center items-center">
                 <Image
@@ -66,7 +49,7 @@ export default function Slider() {
                   <h1 className="text-4xl   text-white drop-shadow-md py-4">
                     {text1}
                   </h1>
-                  
+                  {text2}
                 </div>
               </div>
             </SwiperSlide>
