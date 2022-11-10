@@ -1,17 +1,9 @@
 import Image from "next/image";
 import Slider from "../components/slider";
 import Link from "next/link";
-
-
 import Projectscard from "../components/projectscard";
-
 import SolutionBoard from "../components/solutionboard";
-
-
-import Footprint from "../components/footprint";
-import Itservicescard from "../components/itservicescard";
 import IconPages from "../components/iconspages";
-
 export default function Home() {
   const rightIcon = (
     <svg
