@@ -1,22 +1,13 @@
 import Image from "next/image";
 import Slider from "../components/slider";
 import Link from "next/link";
-import Clients from "../components/client";
-import Testimonials from "../components/testimonial";
-import KnowledgeCard from "../components/knowledgecard";
+
+
 import Projectscard from "../components/projectscard";
-import Blognew from "../components/blognew";
+
 import SolutionBoard from "../components/solutionboard";
 
-import {
-  FaAccessibleIcon,
-  FaAddressBook,
-  FaAdjust,
-  FaBeer,
-  FaDownload,
-  FaSalesforce,
-  FaVideo,
-} from "react-icons/fa";
+
 import Footprint from "../components/footprint";
 import Itservicescard from "../components/itservicescard";
 import IconPages from "../components/iconspages";
