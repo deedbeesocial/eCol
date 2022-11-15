@@ -52,6 +52,19 @@ export default function Layout({ children }) {
       ],
     },
     {
+      name: "eCol Approach",
+      path: "/approach",
+      sub: [
+        // { name: "To Auditing Firms ", path: "/services#AuditingFirms" },
+        // {
+        //   name: "Practical Training & Development",
+        //   path: "/services#CharteredAccount",
+        // },
+        // { name: "To Corporates", path: "/services#Corporations" },
+        // { name: "To Regulators", path: "/services#Regulators" },
+      ],
+    },
+    {
       name: "How To Engage",
       path: "/engage",
 
@@ -127,7 +140,7 @@ export default function Layout({ children }) {
                     <a
                       className={`${
                         pathname === path &&
-                        "underline decoration-blue  decoration-2 font-extrabold underline-offset-4 "
+                        "underline decoration-blue  decoration-2 font-semibold underline-offset-4 "
                       } hover: mx-3  2xl:mx-4 font-bah transition-all`}
                     >
                       {name}
@@ -277,16 +290,16 @@ export default function Layout({ children }) {
             <Link href="/about">
               <a>About Ecol</a>
             </Link>
-            <Link href="/services">
+            <Link href="/solution">
               <a>Solutions</a>
             </Link>
-            <Link href="/adat">
+            <Link href="/engage">
               <a>How to Engage</a>
             </Link>
           </div>
 
           <div className="text-sm flex flex-col font-bah text-black lg:p-0  text-center">
-            <Link href="/library">
+            <Link href="/resource">
               <a>Resources</a>
             </Link>
             {/* <Link href="/resources">

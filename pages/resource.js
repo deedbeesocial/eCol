@@ -116,10 +116,10 @@ export default function Resources() {
   ];
 
   return (
-    <>
+    <section className="bg-lightgray">
       <section className="md:container mx-auto">
         <div className="py-5  md:py-10">
-          <section className="bg-white ">
+          <section className=" ">
             <p className="text-3xl font-bah  title-font text-black text-center mb-2"></p>
             <div className="md:container flex justify-center md:mx-auto">
               <ul className="grid grid-flow-col gap-4 w-full md:w-1/2 mt-5 text-center  text-black  rounded-full p-1">
@@ -152,7 +152,7 @@ export default function Resources() {
             perspiciatis unde omnis iste."
           </p> */}
 
-          <div className="grid gap-6 mt-8 row-gap-5 mb-8 lg:grid-cols-3 sm:row-gap-6 sm:grid-cols-2">
+          <div className="grid gap-6 mt-8 row-gap-5 mb-8 lg:grid-cols-1 justify-center sm:row-gap-6 sm:grid-cols-2">
             {discover[buttonIndex].blogsdata.map(
               ({ name, imgs, desc, vidoes }, index) => {
                 if (buttonIndex === 0) {
@@ -163,7 +163,7 @@ export default function Resources() {
                       href="/"
                       aria-label="View Item"
                     >
-                      <p className="text-2xl font-bah">Coming Soon</p>
+                      <p className="text-xl h-80  text-center w-full font-bah">Coming Soon</p>
                       {/* <div className="relative rounded shadow-lg  hover:shadow-2xl">
                         <img
                           className="object-cover w-full h-56 md:h-64 xl:h-80"
@@ -227,7 +227,7 @@ export default function Resources() {
                     // </div>
                     //         </div>
                     //       </div>
-                    <div className="text-2xl font-bah">Coming Soon</div>
+                    <div className="text-xl h-80 font-bah flex justify-center"> <p className="text-cent">Coming Soon</p></div>
                   );
                 }
               }
@@ -262,6 +262,6 @@ export default function Resources() {
           </div>
         </div>
       </section>
-    </>
+    </section>
   );
 }

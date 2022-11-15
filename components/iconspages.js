@@ -20,11 +20,11 @@ function IconPages() {
                       <img src="/icon/bulb.gif" alt="" />
                     </div>
                   </div>
-                  <p className="text-black h-[50px] text-center text-sm mt-4 ">
+                  <p className="text-black h-[50px] text-center  mt-4 ">
                     ~30%+ savings in monthly energy bill
                   </p>
                   <div className="flex justify-center mt-4 ">
-                    <Link href={""}>
+                    <Link href={"/approach"}>
                       <p className="text-white hover:border-black hover:border-2 p-2 font-bold bg-blue  ease-in duration-300 rounded-md  hover:bg-white hover:text-black   flex justify-center items-center text-left hover:cursor-pointer">
                         Read More
                       </p>
@@ -43,7 +43,7 @@ function IconPages() {
                     </div>
                   </div>
 
-                  <p className="text-black text-center h-[50px] text-sm mt-4 ">
+                  <p className="text-black text-center h-[50px]  mt-4 ">
                     Closed water loop
                   </p>
                   <div className="flex justify-center mt-4 ">
@@ -65,11 +65,11 @@ function IconPages() {
                       <img src="/icon/waste.gif" alt="" />
                     </div>
                   </div>
-                  <p className="text-black text-center h-[50px] text-sm mt-4 ">
+                  <p className="text-black text-center h-[80px] mt-4 ">
                     Ethical and safe waste management. Waste to Energy.
                   </p>
                   <div className="flex justify-center mt-4 ">
-                    <Link href={""}>
+                    <Link href={"/approach"}>
                       <p className="text-white hover:border-black hover:border-2 p-2 font-bold bg-blue  ease-in duration-300 rounded-md  hover:bg-white hover:text-black   flex justify-center items-center text-left hover:cursor-pointer">
                         Read More
                       </p>
@@ -87,12 +87,12 @@ function IconPages() {
                       <img src="/icon/air.gif" alt="" />
                     </div>
                   </div>
-                  <p className="text-black text-center h-[50px] text-sm mt-4 ">
+                  <p className="text-black text-center h-[80px]  mt-4 ">
                     Better Air quality and savings in air based energy
                     requirements.
                   </p>
                   <div className="flex justify-center mt-4 ">
-                    <Link href={""}>
+                    <Link href={"/approach"}>
                       <p className="text-white hover:border-black hover:border-2 p-2 font-bold bg-blue ease-in duration-300 rounded-md  hover:bg-white hover:text-black   flex justify-center items-center text-left hover:cursor-pointer">
                         Read More
                       </p>

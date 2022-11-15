@@ -8,7 +8,7 @@ function SolutionFive() {
           <div
             className="h-72 flex flex-col justify-center items-center"
             style={{
-              backgroundImage: "url('/build/banner.jpg')",
+              backgroundImage: "url('/down/handplant2.png')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -20,7 +20,7 @@ function SolutionFive() {
               className="h-[90px] w-3/4 flex justify-center   items-center font-bah text-2xl text-white "
             >
               <p className="text-3xl font-bah  title-font text-white ">
-             {` Solar is not just about going green. it's about getting smart on use.`}
+                {` Solar is not just about going green. it's about getting smart on use.`}
               </p>
             </div>
           </div>
@@ -30,14 +30,17 @@ function SolutionFive() {
             The Problem
           </h1>
           <p className="text-center p-4 my-5">
-          ou pay Rs 8 to 14 per unit of power you consume. You run the risk of shutdowns.
+            You pay Rs 8 to 14 per unit of power you consume. You run the risk
+            of shutdowns.
           </p>
           <h1 className="text-3xl text-center  my-5 text-black capitalize lg:text-4xl ">
             Solution Arrays
           </h1>
           <div className="w-full bg-slate-800  grid grid-cols-1 justify-center h-fit">
             <p className="text-white p-4 text-center border">
-            By producing power you consume, you cut your energy bill from 20 to as much as 70 per cent. The trick is to get the right combination going
+              By producing power you consume, you cut your energy bill from 20
+              to as much as 70 per cent. The trick is to get the right
+              combination going
             </p>
             {/* <p className="text-white p-4 text-center border">
               Treat STP output water to Health Grade
@@ -61,11 +64,13 @@ function SolutionFive() {
                     </div>
                   </div>
                   <p className="text-center">Economics</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️Drop grid energy use by ~70%  with the hybrid mode that combines energy eficiency and energy generation
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ Drop grid energy use by ~70% with the hybrid mode that
+                    combines energy eficiency and energy generation
                   </p>
-                  {/* <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Save of diesel and transportation cost
+                  {/*  <p className="text-black text-justify  h-fit text-center 
+ mt-4 ">
+                    ✅ Save of diesel and transportation cost
                   </p> */}
                 </div>
               </div>
@@ -80,11 +85,15 @@ function SolutionFive() {
                     </div>
                   </div>
                   <p className="text-center">Ecological</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️Decrease use of Fossil fuel and coal to generate electricity
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ Decrease use of Fossil fuel and coal to generate
+                    electricity
                   </p>
-                  <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Reduce land use and Habitat loss due to Mining for Coal 
+                  <p
+                    className="text-black text-justify  h-fit text-center 
+ mt-4 "
+                  >
+                    ✅ Reduce land use and Habitat loss due to Mining for Coal
                   </p>
                 </div>
               </div>
@@ -98,11 +107,15 @@ function SolutionFive() {
                     </div>
                   </div>
                   <p className="text-center">Social</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️ Solar emits very little to no pollution into the air 
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ Solar emits very little to no pollution into the air
                   </p>
-                  <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Reduction on dependency on coal from Indonesia or Australia to produce electricity
+                  <p
+                    className="text-black text-justify  h-fit text-center 
+ mt-4 "
+                  >
+                    ✅ Reduction on dependency on coal from Indonesia or
+                    Australia to produce electricity
                   </p>
                 </div>
               </div>

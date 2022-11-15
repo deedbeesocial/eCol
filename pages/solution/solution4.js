@@ -8,7 +8,7 @@ function SolutionFour() {
           <div
             className="h-72 flex flex-col justify-center items-center"
             style={{
-              backgroundImage: "url('/build/banner.jpg')",
+              backgroundImage: "url('/down/handplant2.png')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -63,11 +63,12 @@ function SolutionFour() {
                     </div>
                   </div>
                   <p className="text-center">Economics</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️Save on ground water pumping and transportation costs
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ Save on ground water pumping and transportation costs
                   </p>
-                  {/* <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Save of diesel and transportation cost
+                  {/*  <p className="text-black text-justify  h-fit text-center 
+ mt-4 ">
+                    ✅ Save of diesel and transportation cost
                   </p> */}
                 </div>
               </div>
@@ -82,11 +83,12 @@ function SolutionFour() {
                     </div>
                   </div>
                   <p className="text-center">Ecological</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️Decrease usage of ground water from aquifers
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ Decrease usage of ground water from aquifers
                   </p>
-                  {/* <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Save of diesel and transportation cost
+                  {/*  <p className="text-black text-justify  h-fit text-center 
+ mt-4 ">
+                    ✅ Save of diesel and transportation cost
                   </p> */}
                 </div>
               </div>
@@ -100,11 +102,14 @@ function SolutionFour() {
                     </div>
                   </div>
                   <p className="text-center">Social</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️ Healthier ground water systems
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ Healthier ground water systems
                   </p>
-                  <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Greater water security and healthy water access
+                  <p
+                    className="text-black text-justify  h-fit text-center 
+ mt-4 "
+                  >
+                    ✅ Greater water security and healthy water access
                   </p>
                 </div>
               </div>

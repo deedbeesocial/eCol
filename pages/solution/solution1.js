@@ -8,7 +8,7 @@ function Blogone() {
           <div
             className="h-72 flex flex-col justify-center items-center"
             style={{
-              backgroundImage: "url('/build/banner.jpg')",
+              backgroundImage: "url('/down/handplant2.png')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -63,12 +63,15 @@ function Blogone() {
                     </div>
                   </div>
                   <p className="text-center">ECONOMIC</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️30% + Savings a year on operations cost of feeding water
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ 30% + Savings a year on operations cost of feeding water
                     to the chiller plant (Pay as you go Model available)
                   </p>
-                  <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Save of diesel and transportation cost
+                  <p
+                    className="text-black text-justify  h-fit text-center 
+ mt-4 "
+                  >
+                    ✅ Save of diesel and transportation cost
                   </p>
                 </div>
               </div>
@@ -83,12 +86,15 @@ function Blogone() {
                     </div>
                   </div>
                   <p className="text-center">ECONOMIC</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️30% + Savings a year on operations cost of feeding water
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ 30% + Savings a year on operations cost of feeding water
                     to the chiller plant (Pay as you go Model available)
                   </p>
-                  <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Save of diesel and transportation cost
+                  <p
+                    className="text-black text-justify  h-fit text-center 
+ mt-4 "
+                  >
+                    ✅ Save of diesel and transportation cost
                   </p>
                 </div>
               </div>
@@ -102,12 +108,15 @@ function Blogone() {
                     </div>
                   </div>
                   <p className="text-center">ECONOMIC</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️ 30% + Savings a year on operations cost of feeding water
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ 30% + Savings a year on operations cost of feeding water
                     to the chiller plant (Pay as you go Model available)
                   </p>
-                  <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Save of diesel and transportation cost
+                  <p
+                    className="text-black text-justify  h-fit text-center 
+ mt-4 "
+                  >
+                    ✅ Save of diesel and transportation cost
                   </p>
                 </div>
               </div>

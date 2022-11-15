@@ -43,7 +43,7 @@ export default function Engage() {
   };
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <>
+    <section className="bg-lightgray">
       <div className="py-16       lg:py-20">
         <div className="md:container  md:mx-auto">
           <div className="flex flex-col mb-16 sm:text-center">
@@ -121,6 +121,6 @@ export default function Engage() {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 }

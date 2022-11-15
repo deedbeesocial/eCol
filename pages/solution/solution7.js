@@ -8,7 +8,7 @@ function SolutionSeven() {
           <div
             className="h-72 flex flex-col justify-center items-center"
             style={{
-              backgroundImage: "url('/build/banner.jpg')",
+              backgroundImage: "url('/down/handplant2.png')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -20,7 +20,7 @@ function SolutionSeven() {
               className="h-[90px] w-3/4 flex justify-center   items-center font-bah text-2xl text-white "
             >
               <p className="text-3xl font-bah  title-font text-white ">
-              Re-engineering Centrally Air-Conditioned Buildings.
+                Re-engineering Centrally Air-Conditioned Buildings.
               </p>
             </div>
           </div>
@@ -30,14 +30,16 @@ function SolutionSeven() {
             The Problem
           </h1>
           <p className="text-center p-4 my-5">
-          A central AC in your building claims nearly 60 percent of your energy bill.
+            A central AC in your building claims nearly 60 percent of your
+            energy bill.
           </p>
           <h1 className="text-3xl text-center  my-5 text-black capitalize lg:text-4xl ">
             Solution Arrays
           </h1>
           <div className="w-full bg-slate-800  grid grid-cols-1 justify-center h-fit">
             <p className="text-white p-4 text-center border">
-            From equipment side to low side, smart tweaks can drop energy bills by 15-30 percent as eCol has proven often. 
+              From equipment side to low side, smart tweaks can drop energy
+              bills by 15-30 percent as eCol has proven often.
             </p>
             {/* <p className="text-white p-4 text-center border">
               Treat STP output water to Health Grade
@@ -61,11 +63,12 @@ function SolutionSeven() {
                     </div>
                   </div>
                   <p className="text-center">Economics</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️Saving 15-20% of electricity usage
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ Saving 15-20% of electricity usage
                   </p>
-                  {/* <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Save of diesel and transportation cost
+                  {/*  <p className="text-black text-justify  h-fit text-center 
+ mt-4 ">
+                    ✅ Save of diesel and transportation cost
                   </p> */}
                 </div>
               </div>
@@ -80,11 +83,15 @@ function SolutionSeven() {
                     </div>
                   </div>
                   <p className="text-center">Ecological</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️Lesser use of electricity reducing the environment cost of generating electricity
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ Lesser use of electricity reducing the environment cost
+                    of generating electricity
                   </p>
-                  <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Lesser coal mining and less use of extracted coal
+                  <p
+                    className="text-black text-justify  h-fit text-center 
+ mt-4 "
+                  >
+                    ✅ Lesser coal mining and less use of extracted coal
                   </p>
                 </div>
               </div>
@@ -98,11 +105,12 @@ function SolutionSeven() {
                     </div>
                   </div>
                   <p className="text-center">Social</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️ Reduced climate change as energy requirement is reduced
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ Reduced climate change as energy requirement is reduced
                   </p>
-                  {/* <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Save of diesel and transportation cost
+                  {/*  <p className="text-black text-justify  h-fit text-center 
+ mt-4 ">
+                    ✅ Save of diesel and transportation cost
                   </p> */}
                 </div>
               </div>

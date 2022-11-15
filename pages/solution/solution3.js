@@ -8,7 +8,7 @@ function SolutionOne() {
           <div
             className="h-72 flex flex-col justify-center items-center"
             style={{
-              backgroundImage: "url('/build/banner.jpg')",
+              backgroundImage: "url('/down/handplant2.png')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -64,12 +64,15 @@ function SolutionOne() {
                     </div>
                   </div>
                   <p className="text-center">Economics</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️Save 20% energy on drawing water from borewells or
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ Save 20% energy on drawing water from borewells or
                     transporting by tankers with rainwater you use.
                   </p>
-                  <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Save half the energy you use in an RO system with the
+                  <p
+                    className="text-black text-justify  h-fit text-center 
+ mt-4 "
+                  >
+                    ✅ Save half the energy you use in an RO system with the
                     Air2Water installation eCol offers
                   </p>
                 </div>
@@ -85,11 +88,14 @@ function SolutionOne() {
                     </div>
                   </div>
                   <p className="text-center">Ecological</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️Reduce reliance on borewell or city supply or tankers.
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ Reduce reliance on borewell or city supply or tankers.
                   </p>
-                  <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Safe, pure water from air without risk of RO treatment.
+                  <p
+                    className="text-black text-justify  h-fit text-center 
+ mt-4 "
+                  >
+                    ✅ Safe, pure water from air without risk of RO treatment.
                   </p>
                 </div>
               </div>
@@ -103,11 +109,12 @@ function SolutionOne() {
                     </div>
                   </div>
                   <p className="text-center">Social</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️Greater water security and healthy water access
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ Greater water security and healthy water access
                   </p>
-                  {/* <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Save of diesel and transportation cost
+                  {/*  <p className="text-black text-justify  h-fit text-center 
+ mt-4 ">
+                    ✅ Save of diesel and transportation cost
                   </p> */}
                 </div>
               </div>

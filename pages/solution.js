@@ -96,7 +96,7 @@ export default function Solution() {
 
 
 
-<section className="md:pt-14 md:pb-10 text-zinc-90 bg-white">
+<section className="md:pt-14 md:pb-10 text-zinc-90 bg-lightgray">
         <div className="lg:container p-4 mx-auto">
           <div className="flex gap-4 justify-center mb-10">
            
@@ -105,7 +105,7 @@ export default function Solution() {
             </h1>
            
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-12 gap-4 pt-4 lg:pt-8">
+          <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-12 gap-4 pt-4 lg:pt-8">
             {items.map(({ name, name2, image, id, link }) => (
               <Link key={id} href={link}>
                 <div className="w-auto relative">
@@ -115,6 +115,7 @@ export default function Solution() {
                       alt=""
                       objectFit="cover"
                       src={image}
+                      className="brightness-75"
                     />
                     <div className="w-full h-1/2 absolute bottom-0 left-0 right-0 from-transparent bg-gradient-to-b to-black opacity-60"></div>
 

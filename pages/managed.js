@@ -21,7 +21,7 @@ export default function Managed() {
         <div
           className="h-72 flex flex-col justify-center items-center"
           style={{
-            backgroundImage: "url('/build/banner.jpg')",
+            backgroundImage: "url('/down/handplant2.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
@@ -650,16 +650,16 @@ export default function Managed() {
                           </tr>
                           <tr className="bg-slate-800 border-b">
                             <td className="px-6 border py-4 whitespace-nowrap text-sm font-medium text-white">
-                            5,000-20,000
+                              5,000-20,000
                             </td>
                             <td className="text-sm border text-white font-light px-6 py-4 whitespace-nowrap">
-                            7,50,001
+                              7,50,001
                             </td>
                             <td className="text-sm border text-white font-light px-6 py-4 whitespace-nowrap">
-                            ₹10,00,000 
+                              ₹10,00,000
                             </td>
                             <td className="text-sm border text-white font-light px-6 py-4 whitespace-nowrap">
-                            5,000 
+                              5,000
                             </td>
                           </tr>
                           <tr className="bg-slate-800 border-b">
@@ -667,13 +667,13 @@ export default function Managed() {
                               {`20,000-1,00,000 `}
                             </td>
                             <td className="text-sm border text-white font-light px-6 py-4 whitespace-nowrap">
-                            10,00,000
+                              10,00,000
                             </td>
                             <td className="text-sm border text-white font-light px-6 py-4 whitespace-nowrap">
-                            ₹15,00,000
+                              ₹15,00,000
                             </td>
                             <td className="text-sm border text-white font-light px-6 py-4 whitespace-nowrap">
-                            8,000
+                              8,000
                             </td>
                           </tr>
                         </tbody>
@@ -682,7 +682,6 @@ export default function Managed() {
                   </div>
                 </div>
               </div>
-              
 
               <p className="prose font-bah lg:mb-0 mb-5 pt-8">
                 <Link href="/contact">
@@ -692,7 +691,6 @@ export default function Managed() {
                 </Link>{" "}
                 to know more.
               </p>
-
             </div>
             <div
               data-aos="fade-up"

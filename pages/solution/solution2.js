@@ -8,7 +8,7 @@ function SolutionOne() {
           <div
             className="h-72 flex flex-col justify-center items-center"
             style={{
-              backgroundImage: "url('/build/banner.jpg')",
+              backgroundImage: "url('/down/handplant2.png')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -20,7 +20,7 @@ function SolutionOne() {
               className="h-[90px] w-3/4 flex justify-center   items-center font-bah text-2xl text-white "
             >
               <p className="text-3xl font-bah  title-font text-white ">
-              Waste to Energy in Corporate Campuses.
+                Waste to Energy in Corporate Campuses.
               </p>
             </div>
           </div>
@@ -30,14 +30,16 @@ function SolutionOne() {
             The Problem
           </h1>
           <p className="text-center p-4 my-5">
-          A food court catering to 1000 employees can generate 200 cumulative kg of wet waste, every lunch session.
+            A food court catering to 1000 employees can generate 200 cumulative
+            kg of wet waste, every lunch session.
           </p>
           <h1 className="text-3xl text-center  my-5 text-black capitalize lg:text-4xl ">
             Solution Arrays
           </h1>
           <div className="w-full bg-slate-800  grid grid-cols-1 justify-center h-fit">
             <p className="text-white p-4 text-center border">
-            Every 400 kg of wet waste can give you gas equal to a cylinder at your home.
+              Every 400 kg of wet waste can give you gas equal to a cylinder at
+              your home.
             </p>
             {/* <p className="text-white p-4 text-center border">
               Treat STP output water to Health Grade
@@ -61,11 +63,12 @@ function SolutionOne() {
                     </div>
                   </div>
                   <p className="text-center">ECONOMIC</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️15%+ savings in bulk energy costs
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ 15%+ savings in bulk energy costs
                   </p>
-                  {/* <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Save of diesel and transportation cost
+                  {/*  <p className="text-black text-justify  h-fit text-center 
+ mt-4 ">
+                    ✅ Save of diesel and transportation cost
                   </p> */}
                 </div>
               </div>
@@ -80,11 +83,15 @@ function SolutionOne() {
                     </div>
                   </div>
                   <p className="text-center">ECOLOGICAL</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️Decrease use of fossil fuels such as LPG and transportation energy costs
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ Decrease use of fossil fuels such as LPG and
+                    transportation energy costs
                   </p>
-                  <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Save of diesel and transportation cost
+                  <p
+                    className="text-black text-justify  h-fit text-center 
+ mt-4 "
+                  >
+                    ✅ Save of diesel and transportation cost
                   </p>
                 </div>
               </div>
@@ -98,12 +105,15 @@ function SolutionOne() {
                     </div>
                   </div>
                   <p className="text-center">Social</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️ 30% + Savings a year on operations cost of feeding water
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ 30% + Savings a year on operations cost of feeding water
                     to the chiller plant (Pay as you go Model available)
                   </p>
-                  <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Save of diesel and transportation cost
+                  <p
+                    className="text-black text-justify  h-fit text-center 
+ mt-4 "
+                  >
+                    ✅ Save of diesel and transportation cost
                   </p>
                 </div>
               </div>

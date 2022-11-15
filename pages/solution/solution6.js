@@ -8,7 +8,7 @@ function SolutionSix() {
           <div
             className="h-72 flex flex-col justify-center items-center"
             style={{
-              backgroundImage: "url('/build/banner.jpg')",
+              backgroundImage: "url('/down/handplant2.png')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -63,12 +63,13 @@ function SolutionSix() {
                     </div>
                   </div>
                   <p className="text-center">Economics</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️~25% saving with such 3M process with no compromise on
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ ~25% saving with such 3M process with no compromise on
                     comfort and convenience of resource use
                   </p>
-                  {/* <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Save of diesel and transportation cost
+                  {/*  <p className="text-black text-justify  h-fit text-center 
+ mt-4 ">
+                    ✅ Save of diesel and transportation cost
                   </p> */}
                 </div>
               </div>
@@ -83,11 +84,12 @@ function SolutionSix() {
                     </div>
                   </div>
                   <p className="text-center">Ecological</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️Enhanced security of Water/ Energy
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ Enhanced security of Water/ Energy
                   </p>
-                  {/* <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Save of diesel and transportation cost
+                  {/*  <p className="text-black text-justify  h-fit text-center 
+ mt-4 ">
+                    ✅ Save of diesel and transportation cost
                   </p> */}
                 </div>
               </div>
@@ -101,11 +103,12 @@ function SolutionSix() {
                     </div>
                   </div>
                   <p className="text-center">Soical</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️ Softer footprint with less use of natural resources
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ Softer footprint with less use of natural resources
                   </p>
-                  {/* <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Save of diesel and transportation cost
+                  {/*  <p className="text-black text-justify  h-fit text-center 
+ mt-4 ">
+                    ✅ Save of diesel and transportation cost
                   </p> */}
                 </div>
               </div>

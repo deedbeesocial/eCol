@@ -3,7 +3,7 @@ import Link from "next/link";
 function About() {
   const team = [
     {
-      name: "Dr. Hariharan",
+      name: "Dr. Hariharan Chandrashekar",
       image: "/about/chandra.png",
       role: "",
       description:
@@ -26,16 +26,16 @@ function About() {
   ];
 
   return (
-    <>
+    <section className="bg-lightgray">
       <section
         style={{
-          backgroundImage: `url(${"/about/sea.jpg"})`,
+          backgroundImage: `url(${"/down/handplant2.png"})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="md:container flex flex-col justify-center h-[400px] md:mx-auto">
+        <div className="md:container flex flex-col justify-center h-72 md:mx-auto">
           <p className="text-4xl tracking-wide  text-center  text-white">
             {" "}
             The future is here – NOW!
@@ -54,7 +54,8 @@ function About() {
               Sustainability
             </h1>
             <p className="prose text-justify pt-8 p-5">
-              value by examining how you operate in the ecological, social and
+              Sustainability is a business approach to creating long-term value
+              by examining how you operate in the ecological, social and
               economic environment. Developing such strategies offers long-term,
               competitive advantage. With the need for greater corporate
               responsibility and transparency, companies now recognize the need
@@ -69,7 +70,7 @@ function About() {
                 layout="fill"
                 alt=""
                 objectFit=" cover "
-                src="/ourvison/ov.png"
+                src="/down/carbon.png"
               />
 
               <div className="w-full h-[300px] text-white    lg:p-20    flex flex-col justify-center items-center relative ">
@@ -81,21 +82,23 @@ function About() {
         </div>
       </section>
 
-      <div className="w-full h-[100px]" id="Core-values"></div>
+      <div className="w-full h-[20px]" id="Core-values"></div>
 
       <section className=" lg:container mx-auto   text-black">
         <h1 className="text-4xl tracking-wide mb-10 text-center  text-black">
           WHY eCol?
         </h1>
-        <p className="text-black p-5 my-10 ">
+       <div className="flex gap-32 justify-center  flex-row">
+        <div className="w-1/2">
+        <p className=" prose text-justify pt-8 p-2">
           At eCol we believe that we need to find ways to meet our current
           consumption needs without jeopardizing the future. Business growth,
-          profitability and sustainability cannot exist in isolation.{" "}
-        </p>
-        <h1 className="font-semibold tracking-wide mb-10 text-center  text-black">
+          profitability and sustainability cannot exist in isolation.{" "}<span className="font-semibold tracking-wide mb-10 text-center  text-black">
           We want to help create a profitable green future.
-        </h1>
-        <p className="text-black text-justify my-10 p-5 ">
+        </span>
+        </p>
+        
+        <p className="text-black text-justify  p-2 ">
           {`
           eCol brings innovative Green Financing solutions for building
           infrastructure. Off-balance sheet mechanisms which own a range of
@@ -110,6 +113,10 @@ function About() {
           you to retrofit solutions. New projects can gain from 'Doing it right
           the first time'.`}
         </p>
+        </div>
+        <div><img className="h-[500px]" src="/down/wearezenith.png" alt="" /></div>
+
+       </div>
         {/* <div className="lg:container mb-10  mx-auto">
          
           <div className="flex justify-center mt-4 mb-8 ">
@@ -123,8 +130,8 @@ function About() {
       </section>
 
       {/* core teaaaaaaaaaaaaaaaaaaaaaaam */}
-      <div className="w-full h-[50px]" id="MeetOur-Team"></div>
-      <section className=" md:pt-24 md:pb-10 ">
+      <div className="w-full h-[20px]" id="MeetOur-Team"></div>
+      <section className=" md:pt-16 md:pb-10 ">
         <div className="container px-6  mx-auto">
           <h1 className="text-3xl text-center text-black capitalize lg:text-4xl ">
             Meet Our Team
@@ -148,18 +155,18 @@ function About() {
                   </h1>
                   <div className="flex flex-col justify-center">
                     <h1 className="md:w-100% h-[2px] mt-5  bg-blue mb-5"></h1>
-                    <p className=" text-black mt-4 capitalize text-center  ">
+                    <p className=" prose text-justify pt-2 p-5  ">
                       {description}
                     </p>
                   </div>
-                  <p className="text-center ">name</p>
+                 
                 </div>
               );
             })}
           </div>
         </div>
       </section>
-    </>
+    </section>
   );
 }
 export default About;

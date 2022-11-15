@@ -44,7 +44,7 @@ export default function Home() {
     },
     {
       id: 6,
-      text: "   reater Asset Longevity and Smarter Performance",
+      text: "   Greater Asset Longevity and Smarter Performance",
     },
   ];
   const offerings = [
@@ -84,7 +84,7 @@ export default function Home() {
       <section
         className=" lg:h-[800px]   "
         style={{
-          backgroundImage: `url(${"/carosel/welcometothe.png"})`,
+          backgroundImage: `url(${"/down/building.png"})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -113,9 +113,8 @@ export default function Home() {
         </div>
       </section>
 
-     
-        <Projectscard />
-     
+      <Projectscard />
+
       {/* whyworkwithus/////////////////////////////////////////////////// */}
       {/* <section
         className="text-black bg-green body-font  overflow-hidden lg:py-12"
@@ -147,43 +146,48 @@ export default function Home() {
       </section> */}
       <section
         data-aos="fade-up"
-        className="text-black bg-white body-font   lg:py-12"
-        style={{
-          backgroundImage: `url(${"/carosel/welcometothe.png"})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-        }}
+        className="text-black bg-lightgray body-font   lg:py-12"
+        // style={{
+        //   backgroundImage: `url(${"/carosel/welcometothe.png"})`,
+        //   backgroundSize: "cover",
+        //   backgroundPosition: "center",
+        //   backgroundRepeat: "no-repeat",
+        // }}
       >
         <div className=" md:container md:mx-auto    lg:rounded-lg text-left">
           <div className="lg:w-full mb-7 mx-auto lg:h-[600px] flex flex-col lg:flex-col ">
-          <h1 className=" capitalize text-xl lg:text-4xl  my-16 text-white text-center ">
-        {`  Getting A Hold Of Essential Sustainability
+            <h1 className=" capitalize text-xl lg:text-4xl  my-16 text-black text-center ">
+              {`  Getting A Hold Of Essential Sustainability
 Without The RISK Of Your Investing`}
             </h1>
-           
-            <div className="mt-10  mb-13 flex justify-center  gap-16  flex-col lg:flex-row">
+
+            <div className="mt-10  mb-13 flex justify-center    flex-col lg:flex-row">
               <div className="w-full lg:w-1/2">
                 <div className="w-full flex  lg:justify-center ">
-                  <h1 className="w-full text-left  text-3xl font-bah  title-font text-black   mb-4 ">
                  
-                  </h1>
                 </div>
-                <p className="font-bah text-justify p-10 text- text-white leading-loose">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias provident beatae voluptate nihil odit eius voluptates reprehenderit alias, consequatur, aspernatur ullam repudiandae sequi repellendus doloremque dolores rem ab itaque nobis!
+                <p className=" text-justify  p-10 text- text-black leading-loose">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Molestias provident beatae voluptate nihil odit eius
+                  voluptates reprehenderit alias, consequatur, aspernatur ullam
+                  repudiandae sequi repellendus doloremque dolores rem ab itaque
+                  nobis!
                 </p>
-               
               </div>
               <div className="w-1/2 mb-13">
                 {" "}
                 <div className="  flex justify-center">
-              <video controls autoPlay width="" className="w-[642px] h-[362px]">
-                <source src="/video-example.webm" type="video/webm" />
-                <source src="/video/grass.mp4" type="video/mp4" />
-              </video>
-            </div>
+                  <video
+                    controls
+                    autoPlay
+                    width=""
+                    className="w-[642px] h-[362px]"
+                  >
+                    <source src="/video-example.webm" type="video/webm" />
+                    <source src="/video/grass.mp4" type="video/mp4" />
+                  </video>
+                </div>
               </div>
-              
             </div>
             {/* <div className="flex justify-center">
               <Link href="/adat">
@@ -195,10 +199,8 @@ Without The RISK Of Your Investing`}
           </div>
         </div>
       </section>
-      
-        <IconPages />
-    
-      
+
+      <IconPages />
 
       <section className="flex justify-center">
         <div>
@@ -208,7 +210,7 @@ Without The RISK Of Your Investing`}
 
       <section
         style={{
-          backgroundImage: `url(${"/solutions/solution2.png"})`,
+          backgroundImage: `url(${"/down/ourvision1.png"})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -224,7 +226,7 @@ Without The RISK Of Your Investing`}
           </p>
           <img src="/solutions/howitwork.png" alt="" />
           <div className="flex justify-center mt-4 mb-8 ">
-            <Link href={""}>
+            <Link href={"/solution"}>
               <p className="text-white hover:border-black hover:border-2 p-3 font-bold bg-blue ease-in duration-300 rounded-md  hover:bg-white hover:text-black   flex justify-center items-center text-left hover:cursor-pointer">
                 Explore Solutions
               </p>
@@ -249,7 +251,7 @@ Without The RISK Of Your Investing`}
 
       <section
         style={{
-          backgroundImage: `url(${"windmill.jpg"})`,
+          backgroundImage: `url(${"/down/handplant2.png"})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -259,8 +261,8 @@ Without The RISK Of Your Investing`}
           <div className="grid  w-fit  grid-cols-3">
             {whyworkwithus.map(({ text }, index) => {
               return (
-                <div className="my-20 p-5 flex  " key={index}>
-                  <p className="mt-2">✅</p>
+                <div className="my-10 p-2 flex  " key={index}>
+                  <p className="mt-2">✅<span>{" "}</span></p>
                   <p className="text-white font-semibold text-2xl">{text}</p>
                 </div>
               );

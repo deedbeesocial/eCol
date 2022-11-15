@@ -8,7 +8,7 @@ function SolutionNine() {
           <div
             className="h-72 flex flex-col justify-center items-center"
             style={{
-              backgroundImage: "url('/build/banner.jpg')",
+              backgroundImage: "url('/down/handplant2.png')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -38,7 +38,7 @@ function SolutionNine() {
           </h1>
           <div className="w-full bg-slate-800  grid grid-cols-1 justify-center h-fit">
             <p className="text-white p-4 text-center border">
-              nstalling of power quality monitoring systems (PQMs) to monitor,
+              Installing of power quality monitoring systems (PQMs) to monitor,
               govern and rationalize power flow from the external grid into the
               distribution gird, and further into feeder pillar boxes,
               distribution boxes , sub DV, etc.
@@ -65,12 +65,15 @@ function SolutionNine() {
                     </div>
                   </div>
                   <p className="text-center">Economics</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️Saving of 8-12% on the local grid with no compromise on
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ Saving of 8-12% on the local grid with no compromise on
                     comfort for the consumer
                   </p>
-                  <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Higher asset longevity thanks to improved maintenance
+                  <p
+                    className="text-black text-justify  h-fit text-center 
+ mt-4 "
+                  >
+                    ✅ Higher asset longevity thanks to improved maintenance
                     protocols
                   </p>
                 </div>
@@ -86,12 +89,15 @@ function SolutionNine() {
                     </div>
                   </div>
                   <p className="text-center">Ecological</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️Lesser use of electricity reducing the environment cost of
-                    generating electricity
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ Lesser use of electricity reducing the environment cost
+                    of generating electricity
                   </p>
-                  <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Lesser coal mining and less use of extracted coal
+                  <p
+                    className="text-black text-justify  h-fit text-center 
+ mt-4 "
+                  >
+                    ✅ Lesser coal mining and less use of extracted coal
                   </p>
                 </div>
               </div>
@@ -105,11 +111,12 @@ function SolutionNine() {
                     </div>
                   </div>
                   <p className="text-center">Social</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️ Softer footprint with less use of natural resources
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ Softer footprint with less use of natural resources
                   </p>
-                  {/* <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Save of diesel and transportation cost
+                  {/*  <p className="text-black text-justify  h-fit text-center 
+ mt-4 ">
+                    ✅ Save of diesel and transportation cost
                   </p> */}
                 </div>
               </div>

@@ -8,7 +8,7 @@ function SolutionEight() {
           <div
             className="h-72 flex flex-col justify-center items-center"
             style={{
-              backgroundImage: "url('/build/banner.jpg')",
+              backgroundImage: "url('/down/handplant2.png')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -20,7 +20,7 @@ function SolutionEight() {
               className="h-[90px] w-3/4 flex justify-center   items-center font-bah text-2xl text-white "
             >
               <p className="text-3xl font-bah  title-font text-white ">
-              Re-engineering Local Distribution Energy.
+                Re-engineering Local Distribution Energy.
               </p>
             </div>
           </div>
@@ -30,14 +30,18 @@ function SolutionEight() {
             The Problem
           </h1>
           <p className="text-center p-4 my-5">
-          The transformer in your office campus potentially loses 10-12 percent energy because of poor power quality.
+            The transformer in your office campus potentially loses 10-12
+            percent energy because of poor power quality.
           </p>
           <h1 className="text-3xl text-center  my-5 text-black capitalize lg:text-4xl ">
             Solution Arrays
           </h1>
           <div className="w-full bg-slate-800  grid grid-cols-1 justify-center h-fit">
             <p className="text-white p-4 text-center border">
-            Installing of power quality monitoring systems (PQMs) to monitor, govern and rationalize power flow from the external grid into the distribution gird, and further into feeder pillar boxes, distribution boxes , sub DV, etc.
+              Installing of power quality monitoring systems (PQMs) to monitor,
+              govern and rationalize power flow from the external grid into the
+              distribution gird, and further into feeder pillar boxes,
+              distribution boxes , sub DV, etc.
             </p>
             {/* <p className="text-white p-4 text-center border">
               Treat STP output water to Health Grade
@@ -61,11 +65,16 @@ function SolutionEight() {
                     </div>
                   </div>
                   <p className="text-center">Economics</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️Saving of 8-12% on the local grid with no compromise on comfort for the consumer
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ Saving of 8-12% on the local grid with no compromise on
+                    comfort for the consumer
                   </p>
-                  <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Higher asset longevity thanks to improved maintenance protocols
+                  <p
+                    className="text-black text-justify  h-fit text-center 
+ mt-4 "
+                  >
+                    ✅ Higher asset longevity thanks to improved maintenance
+                    protocols
                   </p>
                 </div>
               </div>
@@ -80,11 +89,15 @@ function SolutionEight() {
                     </div>
                   </div>
                   <p className="text-center">Ecological</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️Lesser use of electricity reducing the environment cost of generating electricity
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ Lesser use of electricity reducing the environment cost
+                    of generating electricity
                   </p>
-                  <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Lesser coal mining and less use of extracted coal
+                  <p
+                    className="text-black text-justify  h-fit text-center 
+ mt-4 "
+                  >
+                    ✅ Lesser coal mining and less use of extracted coal
                   </p>
                 </div>
               </div>
@@ -98,11 +111,12 @@ function SolutionEight() {
                     </div>
                   </div>
                   <p className="text-center">Social</p>
-                  <p className="text-black text-justify h-fit  text-sm mt-4 ">
-                    ✔️ Softer footprint with less use of natural resources
+                  <p className="text-black text-justify h-fit   mt-4 ">
+                    ✅ Softer footprint with less use of natural resources
                   </p>
-                  {/* <p className="text-black text-justify  h-fit text-center text-sm mt-4 ">
-                    ✔️Save of diesel and transportation cost
+                  {/*  <p className="text-black text-justify  h-fit text-center 
+ mt-4 ">
+                    ✅ Save of diesel and transportation cost
                   </p> */}
                 </div>
               </div>
