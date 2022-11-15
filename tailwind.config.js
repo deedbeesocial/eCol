@@ -15,9 +15,7 @@ module.exports = {
         orange: "#ffb511",
         coustom1: "#f7f5f0",
       },
-      screens: {
-        "3xl": "104 0px",
-      },
+      screens: {},
     },
   },
   plugins: [],

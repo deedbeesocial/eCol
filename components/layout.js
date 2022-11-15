@@ -94,15 +94,15 @@ export default function Layout({ children }) {
       <Head>
         <title>{`eCol`}</title>
       </Head>
-      <div className="w-full  lg:h-[90px]">
+      <div className="w-full     lg:h-[90px]">
         <header
-          className={`${
+          className={`flex justify-center ${
             navbr
-              ? "md:fixed bg-white z-50 w-full ease-in font-bah  duration-700 border-zinc-100 border-b"
+              ? "md:fixed   bg-white z-50 w-full ease-in font-bah   duration-700 border-zinc-100 border-b"
               : "w-full border-zinc-100 z-50 border-b font-bah   ease-in duration-700 "
           }`}
         >
-          <div className="lg:mx-14  flex justify-between  items-center text-zinc-900 font-sans">
+          <div className="lg: md:container md:mx-auto   flex justify-between  items-center text-zinc-900 font-sans">
             <Link href="/">
               <a className="flex  justify-between lg:justify-start items-center ">
                 <div className="w-full h-[90px]">
@@ -120,7 +120,7 @@ export default function Layout({ children }) {
               <span className="text-sm font-bold text-black capitalize"></span>
             </div>
 
-            <nav className="text-sm uppercase  font-bah tracking-tight hidden  lg:flex justify-end flex-1 lg:mr-8">
+            <nav className="text-sm uppercase  font-bah tracking-tight hidden  lg:flex justify-end flex-1 ">
               {menu.map(({ name, path, sub }, index) => (
                 <div key={index} className="group relative inline-flex ">
                   <Link href={path}>
@@ -225,7 +225,7 @@ export default function Layout({ children }) {
         {children}
       </main>
 
-      <footer className="border font-bah bg-white border-t mx-auto  py-6 lg:py-7">
+      <footer className=" md:container  font-bah bg-white border-t md:mx-auto  py-6 lg:py-7">
         <div className="grid grid-cols-2 lg:flex lg:flex-row justify-around items-start">
           <div className="col-span-2 pb-4 md:pb-0 ">
             <Link href="/">
@@ -292,10 +292,6 @@ export default function Layout({ children }) {
             {/* <Link href="/resources">
               <a>Resources</a>
             </Link> */}
-
-            <Link href="/event">
-              <a>Team</a>
-            </Link>
 
             <Link href="/contact">
               <a>Contact </a>

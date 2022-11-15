@@ -40,7 +40,7 @@ export default function solutionboard() {
     <>
       <div className="flex justify-center my-10 w-[1000px] flex-col">
         <div className="flex my-8 justify-center ">
-          <p className="text-3xl text-white">Solution Across The Board</p>
+          <p className="text-3xl text-white text-center mb-4">Solution Across The Board</p>
         </div>
 
         <div className="grid grid-cols-4 mb-10 flex-wrap ">

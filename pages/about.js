@@ -23,7 +23,6 @@ function About() {
     //   description:
     //     "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
     // },
-    
   ];
 
   return (
@@ -96,7 +95,7 @@ function About() {
         <h1 className="font-semibold tracking-wide mb-10 text-center  text-black">
           We want to help create a profitable green future.
         </h1>
-        <p className="text-black my-10 p-5 ">
+        <p className="text-black text-justify my-10 p-5 ">
           {`
           eCol brings innovative Green Financing solutions for building
           infrastructure. Off-balance sheet mechanisms which own a range of
@@ -111,7 +110,7 @@ function About() {
           you to retrofit solutions. New projects can gain from 'Doing it right
           the first time'.`}
         </p>
-        <div className="lg:container mb-10  mx-auto">
+        {/* <div className="lg:container mb-10  mx-auto">
          
           <div className="flex justify-center mt-4 mb-8 ">
             <Link href={""}>
@@ -120,12 +119,12 @@ function About() {
               </p>
             </Link>
           </div>
-        </div>
+        </div> */}
       </section>
 
       {/* core teaaaaaaaaaaaaaaaaaaaaaaam */}
       <div className="w-full h-[50px]" id="MeetOur-Team"></div>
-      <section className="bg-lightgray md:pt-24 md:pb-10 ">
+      <section className=" md:pt-24 md:pb-10 ">
         <div className="container px-6  mx-auto">
           <h1 className="text-3xl text-center text-black capitalize lg:text-4xl ">
             Meet Our Team
@@ -148,7 +147,6 @@ function About() {
                     {name}
                   </h1>
                   <div className="flex flex-col justify-center">
-                   
                     <h1 className="md:w-100% h-[2px] mt-5  bg-blue mb-5"></h1>
                     <p className=" text-black mt-4 capitalize text-center  ">
                       {description}

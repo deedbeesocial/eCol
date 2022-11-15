@@ -18,7 +18,7 @@ export default function Engage() {
             <svg
               viewBox="0 0 24 24"
               className={`w-3 text-gray-600 transition-transform duration-200 ${
-                isOpen ? 'transform rotate-180  ease-out duration-300 ' : ''
+                isOpen ? "transform rotate-180  ease-out duration-300 " : ""
               }`}
             >
               <polyline
@@ -47,43 +47,76 @@ export default function Engage() {
       <div className="py-16       lg:py-20">
         <div className="md:container  md:mx-auto">
           <div className="flex flex-col mb-16 sm:text-center">
-            
             <div className="max-w-xl md:mx-auto sm:text-center lg:max-w-2xl">
-              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-              
-              How do you engage with eCol ?
+              <h2 className="text-3xl text-black text-center mt-14">
+                How do you engage with eCol ?
               </h2>
-             
             </div>
           </div>
           <div className="space-y-4 ">
-            <Item  title="What are buildings that qualify for eCol Solutions??">
-            Buildings with high energy or water use is strongly urged to fill the Data Form. Your application will be followed by an NDA between your Company and eCol India. If you are an SME, we will sign the NDA including your and your MSME cluster’s stakeholders name(s).
+            <Item title="What are buildings that qualify for eCol Solutions??">
+              Buildings with high energy or water use is strongly urged to fill
+              the Data Form. Your application will be followed by an NDA between
+              your Company and eCol India. If you are an SME, we will sign the
+              NDA including your and your MSME cluster’s stakeholders name(s).
             </Item>
             <Item title="What happens after this?">
-            Once the NDA is signed, we arrange a pre-investment meeting with the applicant. We handle all applications very seriously; the reason behind the value of opinions, is that there is always a room to grow with a derivative for the business.
+              Once the NDA is signed, we arrange a pre-investment meeting with
+              the applicant. We handle all applications very seriously; the
+              reason behind the value of opinions, is that there is always a
+              room to grow with a derivative for the business.
             </Item>
             <Item title="What are the key areas we need to focus before applying?">
-            eCol is an ideas accelerator to bring efficiency in resource use in your company. eCol India has a funding mechanism to support potential for such resource efficiency on water, energy, waste, air management or other areas of process manufacture on operations in your company. eCol, upon evaluation, brings in ideas and solutions on smart clean technologies either for reduction in use of resources or for local generation of energy or water or for waste management. eCol will bring in integrated A.I. and/or smart technologies where applicable to enhance the effectiveness of solutions.
+              eCol is an ideas accelerator to bring efficiency in resource use
+              in your company. eCol India has a funding mechanism to support
+              potential for such resource efficiency on water, energy, waste,
+              air management or other areas of process manufacture on operations
+              in your company. eCol, upon evaluation, brings in ideas and
+              solutions on smart clean technologies either for reduction in use
+              of resources or for local generation of energy or water or for
+              waste management. eCol will bring in integrated A.I. and/or smart
+              technologies where applicable to enhance the effectiveness of
+              solutions.
             </Item>
             <Item title="What type of support does the building owner-company receive?">
-            eCol India, with its battery of green leaders and experts, provides immeasurable and priceless support in terms of: 
-            
-            <ul>
-              <li>
-              <br />
-              - Mentoring in operations and business process on maintenance,
-              </li>
-              <li>- Strategic planning of solutions with a comprehensive, synergistic approach,</li>
-              <li>- R&D, testing and commissioning,</li>
-              <li>- ICT and IEC where it helps the company  with its stakeholders,</li>
-              <li>- Human resources training and capacity building,</li>
-              <li>- Meeting stakeholders within the company and external, to explain the potential for savings and the investment returns that eCol solutions offer. </li>
-              <li>- Funding, depending on the budget required for the solutions, with a structured exit of eCol’s investment at attractive costs. </li>
-            </ul>
+              eCol India, with its battery of green leaders and experts,
+              provides immeasurable and priceless support in terms of:
+              <ul>
+                <li>
+                  <br />- Mentoring in operations and business process on
+                  maintenance,
+                </li>
+                <li>
+                  - Strategic planning of solutions with a comprehensive,
+                  synergistic approach,
+                </li>
+                <li>- R&D, testing and commissioning,</li>
+                <li>
+                  - ICT and IEC where it helps the company with its
+                  stakeholders,
+                </li>
+                <li>- Human resources training and capacity building,</li>
+                <li>
+                  - Meeting stakeholders within the company and external, to
+                  explain the potential for savings and the investment returns
+                  that eCol solutions offer.{" "}
+                </li>
+                <li>
+                  - Funding, depending on the budget required for the solutions,
+                  with a structured exit of eCol’s investment at attractive
+                  costs.{" "}
+                </li>
+              </ul>
             </Item>
             <Item title="Any support period?">
-            eCol selects solutions depending on how to accelerate the ideas that will bring such savings for the building or the manufacturing unit.  Solution frameworks are offered in a timely manner, with solutions implementation cycle never exceeding 3 to 6 months. By the end of the acceleration period, eCol will organize demonstrations with all potential investors and stakeholders present. Once implemented, the savings are measured, monitored and managed. 
+              eCol selects solutions depending on how to accelerate the ideas
+              that will bring such savings for the building or the manufacturing
+              unit. Solution frameworks are offered in a timely manner, with
+              solutions implementation cycle never exceeding 3 to 6 months. By
+              the end of the acceleration period, eCol will organize
+              demonstrations with all potential investors and stakeholders
+              present. Once implemented, the savings are measured, monitored and
+              managed.
             </Item>
           </div>
         </div>

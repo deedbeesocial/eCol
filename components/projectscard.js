@@ -5,7 +5,7 @@ function Projectscard() {
   return (
     <>
       <section className="text-black relative ">
-        <div className="md:container md:mx-auto border-black border  mt-10  pb-10 ">
+        <div className="md:container md:mx-auto    mt-10  pb-10 ">
           <h1 className=" capitalize text-xl lg:text-4xl  my-16 text-black text-center ">
             {` Boost Your Building's Bottom Lines`}
           </h1>

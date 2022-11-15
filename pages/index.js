@@ -155,7 +155,7 @@ export default function Home() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className=" md:container md:mx-auto border border-white   lg:rounded-lg text-left">
+        <div className=" md:container md:mx-auto    lg:rounded-lg text-left">
           <div className="lg:w-full mb-7 mx-auto lg:h-[600px] flex flex-col lg:flex-col ">
           <h1 className=" capitalize text-xl lg:text-4xl  my-16 text-white text-center ">
         {`  Getting A Hold Of Essential Sustainability

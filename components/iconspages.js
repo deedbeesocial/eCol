@@ -4,7 +4,7 @@ import Link from "next/link";
 function IconPages() {
   return (
     <>
-      <section className="text-black border-black border md:container md:mx-auto relative ">
+      <section className="text-black  md:container md:mx-auto relative ">
         <div className=" px-5 mt-10  pb-10 ">
           <div className="w-full flex gap-4 lg:justify-center ">
             <h1 className=" capitalize text-xl lg:text-4xl  my-8 text-black text-center ">
