@@ -21,17 +21,21 @@ export default function Layout({ children }) {
   });
   const menu = [
     {
+      name: "Home",
+      path: "/",
+    },
+    {
       name: "Buildings Managed Better",
       path: "/managed",
     },
     {
       name: "About eCol",
       path: "/about",
-      sub: [
-        { name: "Sustainability", path: "/about#abttf" },
-        { name: " WHY eCol?", path: "/about#focusarea" },
-        { name: "Meet the Team", path: "/about#meettheteam" },
-      ],
+      // sub: [
+      //   { name: "Sustainability", path: "/about#abttf" },
+      //   { name: " WHY eCol?", path: "/about#focusarea" },
+      //   { name: "Meet the Team", path: "/about#meettheteam" },
+      // ],
     },
 
     {
@@ -62,11 +66,11 @@ export default function Layout({ children }) {
     {
       name: "Resources",
       path: "/resource",
-      sub: [
-        { name: "Videos", path: "/resource#Videos" },
-        { name: "Blogs", path: "/resource#Blogs" },
-        { name: "News", path: "/resource#News" },
-      ],
+      // sub: [
+      //   { name: "Videos", path: "/resource#Videos" },
+      //   { name: "Blogs", path: "/resource#Blogs" },
+      //   { name: "News", path: "/resource#News" },
+      // ],
     },
 
     // {
@@ -90,7 +94,7 @@ export default function Layout({ children }) {
       <Head>
         <title>{`eCol`}</title>
       </Head>
-      <div className="w-full lg:h-[90px]">
+      <div className="w-full  lg:h-[90px]">
         <header
           className={`${
             navbr
@@ -98,7 +102,7 @@ export default function Layout({ children }) {
               : "w-full border-zinc-100 z-50 border-b font-bah   ease-in duration-700 "
           }`}
         >
-          <div className="lg:mx-14 flex justify-between  items-center text-zinc-900 font-sans">
+          <div className="lg:mx-14  flex justify-between  items-center text-zinc-900 font-sans">
             <Link href="/">
               <a className="flex  justify-between lg:justify-start items-center ">
                 <div className="w-full h-[90px]">
@@ -297,14 +301,14 @@ export default function Layout({ children }) {
               <a>Contact </a>
             </Link>
           </div>
-          <div className="text-sm flex flex-col font-bah text-black lg:p-0  text-center">
+          {/* <div className="text-sm flex flex-col font-bah text-black lg:p-0  text-center">
             <Link href="">
               <a>Privacy Policy</a>
             </Link>
             <Link href="">
               <a>Terms and Conditions</a>
             </Link>
-          </div>
+          </div> */}
 
           <div className=" md:w-fit w-full  lg:p-0 pl-6 mr-6 mb-2 ">
             <p className="font-semibold md:mt-0 mt-5 text-sm pb-2 font-bah  text-black text-center md:text-center">

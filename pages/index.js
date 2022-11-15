@@ -4,6 +4,7 @@ import Link from "next/link";
 import Projectscard from "../components/projectscard";
 import SolutionBoard from "../components/solutionboard";
 import IconPages from "../components/iconspages";
+import Typewriter from "typewriter-effect";
 export default function Home() {
   const rightIcon = (
     <svg
@@ -80,17 +81,46 @@ export default function Home() {
 
   return (
     <>
-      <section>
-        <Slider />
-      </section>
-      <section>
-        <Projectscard />
-      </section>
-      {/* whyworkwithus/////////////////////////////////////////////////// */}
       <section
+        className=" lg:h-[800px]   "
+        style={{
+          backgroundImage: `url(${"/carosel/welcometothe.png"})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <div className="md:container md:mx-auto flex h-[500px] md:h-[700px] lg:h-full md:justify-center  items-center">
+          <div className="text-white md:w-[70%] w-[100%] mt-14 text-center h-[200px] md:h-[200px] leading-none text-2xl md:text-5xl font-bah">
+            <Typewriter
+              className="text-white text-3xl"
+              options={{
+                strings: [
+                  "Do Good. Do Well.",
+                  // "Improve audit quality and productivity through our robust standards and best practices",
+                  // "Explore technical resources, case studies, connect with experts and get auditing insights",
+                  // "Connect, learn, collaborate with the auditing ecosystem and deliver world-class services",
+                ],
+                autoStart: true,
+                loop: true,
+                delay: 60,
+
+                deleteSpeed: 0,
+                pauseFor: 2000,
+              }}
+            />
+          </div>
+        </div>
+      </section>
+
+     
+        <Projectscard />
+     
+      {/* whyworkwithus/////////////////////////////////////////////////// */}
+      {/* <section
         className="text-black bg-green body-font  overflow-hidden lg:py-12"
         style={{
-          backgroundImage: `url(${"wwwus.jpg"})`,
+          backgroundImage: `url(${"/carosel/welcometothe.png"})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -114,10 +144,61 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section> */}
+      <section
+        data-aos="fade-up"
+        className="text-black bg-white body-font   lg:py-12"
+        style={{
+          backgroundImage: `url(${"/carosel/welcometothe.png"})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <div className=" md:container md:mx-auto border border-white   lg:rounded-lg text-left">
+          <div className="lg:w-full mb-7 mx-auto lg:h-[600px] flex flex-col lg:flex-col ">
+          <h1 className=" capitalize text-xl lg:text-4xl  my-16 text-white text-center ">
+        {`  Getting A Hold Of Essential Sustainability
+Without The RISK Of Your Investing`}
+            </h1>
+           
+            <div className="mt-10  mb-13 flex justify-center  gap-16  flex-col lg:flex-row">
+              <div className="w-full lg:w-1/2">
+                <div className="w-full flex  lg:justify-center ">
+                  <h1 className="w-full text-left  text-3xl font-bah  title-font text-black   mb-4 ">
+                 
+                  </h1>
+                </div>
+                <p className="font-bah text-justify p-10 text- text-white leading-loose">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias provident beatae voluptate nihil odit eius voluptates reprehenderit alias, consequatur, aspernatur ullam repudiandae sequi repellendus doloremque dolores rem ab itaque nobis!
+                </p>
+               
+              </div>
+              <div className="w-1/2 mb-13">
+                {" "}
+                <div className="  flex justify-center">
+              <video controls autoPlay width="" className="w-[642px] h-[362px]">
+                <source src="/video-example.webm" type="video/webm" />
+                <source src="/video/grass.mp4" type="video/mp4" />
+              </video>
+            </div>
+              </div>
+              
+            </div>
+            {/* <div className="flex justify-center">
+              <Link href="/adat">
+                <button className="mt-8 font-bah   border-2 border-white text-white font-bold text-xs hover:text-blue hover:bg-white p-3 rounded-lg transition-all">
+                  READ MORE
+                </button>
+              </Link>
+            </div> */}
+          </div>
+        </div>
       </section>
-      <section>
+      
         <IconPages />
-      </section>
+    
+      
 
       <section className="flex justify-center">
         <div>
@@ -139,19 +220,19 @@ export default function Home() {
       <section className="flex justify-center">
         <div>
           <p className="text-3xl text-black text-center mt-14">
-            HOW IT WORKS FOR YOU
+            How It Works For You
           </p>
           <img src="/solutions/howitwork.png" alt="" />
           <div className="flex justify-center mt-4 mb-8 ">
             <Link href={""}>
-              <p className="text-white hover:border-black hover:border-2 p-3 font-bold bg-[#20303c] ease-in duration-300 rounded-md  hover:bg-white hover:text-black   flex justify-center items-center text-left hover:cursor-pointer">
-                Explore Solution
+              <p className="text-white hover:border-black hover:border-2 p-3 font-bold bg-blue ease-in duration-300 rounded-md  hover:bg-white hover:text-black   flex justify-center items-center text-left hover:cursor-pointer">
+                Explore Solutions
               </p>
             </Link>
           </div>
         </div>
       </section>
-      <section className="p-4 md:container flex justify-center md:mx-auto">
+      {/* <section className="p-4 md:container flex justify-center md:mx-auto">
         <div className="flex flex-col  mb-6 w-[1200px] border  rounded-r-full bg-[#20303c] rounded-l-full">
           <p className="text-center text-3xl text-white my-4">
             How can you engage with eCol?{" "}
@@ -164,7 +245,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section
         style={{
@@ -178,7 +259,7 @@ export default function Home() {
           <div className="grid  w-fit  grid-cols-3">
             {whyworkwithus.map(({ text }, index) => {
               return (
-                <div className="my-20 flex  " key={index}>
+                <div className="my-20 p-5 flex  " key={index}>
                   <p className="mt-2">✅</p>
                   <p className="text-white font-semibold text-2xl">{text}</p>
                 </div>

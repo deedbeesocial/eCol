@@ -3,62 +3,27 @@ import Link from "next/link";
 function About() {
   const team = [
     {
-      name: "",
-      image: "/about/",
+      name: "Dr. Hariharan",
+      image: "/about/chandra.png",
       role: "",
       description:
-        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+        "Dr. Hariharan is an environmental economist, entrepreneur, sustainability professional, mentor, writer, policy advocate and urban analyst. He is founder of BCIL AltTech Foundation, a non-government, not-for-profit, industry-led and industry-managed Trust. Its mission objective and his work over thirty years has focused on zero energy development strategies for buildings with freedom from the grid for energy, water and waste.",
     },
     {
-      name: "",
-      image: "/about/",
+      name: "Pallavi Singh",
+      image: "/about/palvi.jpg",
       role: "",
       description:
-        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+        "Pallavi Singh is an Urban and Regional Planner, and Research Associate at AltTech.Foundation. She has worked on socio-economic and development aspects of urban development and governance for cities like Usilampatti in TN, Bhopal and Jabalpur in MP. She has been city representative for a project under Climate Action Framework for Smart cities  for Rourkela in Odisha. She has written a chapter for a book titled “Advances in Urbanism, Smart Cities and Sustainability” to be published by Taylor and Francis group/CRC Press.",
     },
-    {
-      name: "",
-      image: "/about/",
-      role: "",
-      description:
-        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
-    },
-    {
-      name: "",
-      image: "/about/",
-      role: "",
-
-      description:
-        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
-    },
-    {
-      name: "",
-      image: "/about/",
-      role: "",
-      description:
-        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
-    },
-    {
-      name: "",
-      image: "/about/g",
-      role: "",
-      description:
-        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
-    },
-    {
-      name: "",
-      image: "/abo",
-      role: "",
-      description:
-        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
-    },
-    {
-      name: "",
-      image: "/about/",
-      role: "",
-      description:
-        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
-    },
+    // {
+    //   name: "",
+    //   image: "/about/",
+    //   role: "",
+    //   description:
+    //     "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+    // },
+    
   ];
 
   return (
@@ -72,7 +37,7 @@ function About() {
         }}
       >
         <div className="md:container flex flex-col justify-center h-[400px] md:mx-auto">
-          <p className="text-3xl text-center text-white">
+          <p className="text-4xl tracking-wide  text-center  text-white">
             {" "}
             The future is here – NOW!
           </p>
@@ -128,7 +93,7 @@ function About() {
           consumption needs without jeopardizing the future. Business growth,
           profitability and sustainability cannot exist in isolation.{" "}
         </p>
-        <h1 className="text-2xl tracking-wide mb-10 text-center  text-black">
+        <h1 className="font-semibold tracking-wide mb-10 text-center  text-black">
           We want to help create a profitable green future.
         </h1>
         <p className="text-black my-10 p-5 ">
@@ -150,7 +115,7 @@ function About() {
          
           <div className="flex justify-center mt-4 mb-8 ">
             <Link href={""}>
-              <p className="text-white hover:border-black hover:border-2 p-3 font-bold bg-[#20303c] ease-in duration-300 rounded-md  hover:bg-white hover:text-black   flex justify-center items-center text-left hover:cursor-pointer">
+              <p className="text-white hover:border-black hover:border-2 p-3 font-bold bg-blue ease-in duration-300 rounded-md  hover:bg-white hover:text-black   flex justify-center items-center text-left hover:cursor-pointer">
                Read More
               </p>
             </Link>
@@ -166,7 +131,7 @@ function About() {
             Meet Our Team
           </h1>
 
-          <div className="grid grid-cols-1  gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
+          <div className="grid grid-cols-1  gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-2">
             {team.map(({ name, image, role, description, id }) => {
               return (
                 <div key={id} className="flex   flex-col items-center p-5">
@@ -174,7 +139,7 @@ function About() {
                     <Image
                       className="rounded-full"
                       alt="profle"
-                      src={"/person.jpg"}
+                      src={image}
                       objectFit="cover"
                       layout="fill"
                     />
@@ -183,10 +148,11 @@ function About() {
                     {name}
                   </h1>
                   <div className="flex flex-col justify-center">
-                    <p className=" text-black mt- capitalize text-center  ">
-                      {role}
+                   
+                    <h1 className="md:w-100% h-[2px] mt-5  bg-blue mb-5"></h1>
+                    <p className=" text-black mt-4 capitalize text-center  ">
+                      {description}
                     </p>
-                    <h1 className="md:w-[255px] h-[2px]  bg-blue mb-5"></h1>
                   </div>
                   <p className="text-center ">name</p>
                 </div>

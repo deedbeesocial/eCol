@@ -3,31 +3,31 @@ import React from "react";
 export default function solutionboard() {
   const items = [
     {
-      name: "HOSPITALITY & HEALTHCARE",
+      name: "Hospitality & Healthcare",
       icon: "/icon/bed.png",
     },
     {
-      name: "REAL ESTATE",
+      name: "Real Estate",
       icon: "/icon/realestate.png",
     },
     {
-      name: "CHEMICAL",
+      name: "Chemical",
       icon: "/icon/chemical.png",
     },
     {
-      name: "PHARMA",
+      name: "Pharma",
       icon: "/icon/pharama.png",
     },
     {
-      name: "FMCG",
+      name: "Fmcg",
       icon: "/icon/ahndwash.png",
     },
     {
-      name: "CIVIL ENGINEERING",
+      name: "Civil Engineering",
       icon: "/icon/xivil.png",
     },
     {
-      name: "AUTOMOTIVE",
+      name: "Automotive",
       icon: "/icon/automotive.png",
     },
     {
@@ -40,7 +40,7 @@ export default function solutionboard() {
     <>
       <div className="flex justify-center my-10 w-[1000px] flex-col">
         <div className="flex my-8 justify-center ">
-          <p className="text-3xl text-white">SOLUTIONS ACROSS THE BOARD</p>
+          <p className="text-3xl text-white">Solution Across The Board</p>
         </div>
 
         <div className="grid grid-cols-4 mb-10 flex-wrap ">

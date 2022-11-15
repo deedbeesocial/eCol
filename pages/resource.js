@@ -163,7 +163,8 @@ export default function Resources() {
                       href="/"
                       aria-label="View Item"
                     >
-                      <div className="relative rounded shadow-lg  hover:shadow-2xl">
+                      <p className="text-2xl font-bah">Coming Soon</p>
+                      {/* <div className="relative rounded shadow-lg  hover:shadow-2xl">
                         <img
                           className="object-cover w-full h-56 md:h-64 xl:h-80"
                           src={imgs}
@@ -177,7 +178,7 @@ export default function Resources() {
                             {name}
                           </p>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   );
                 } else {

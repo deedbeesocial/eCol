@@ -23,7 +23,7 @@ export default function Engage() {
             >
               <polyline
                 fill="none"
-                stroke="blue"
+                stroke="green"
                 strokeWidth="5"
                 strokeLinecap="round"
                 strokeMiterlimit="10"
@@ -44,8 +44,8 @@ export default function Engage() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
+      <div className="py-16       lg:py-20">
+        <div className="md:container  md:mx-auto">
           <div className="flex flex-col mb-16 sm:text-center">
             
             <div className="max-w-xl md:mx-auto sm:text-center lg:max-w-2xl">
@@ -56,7 +56,7 @@ export default function Engage() {
              
             </div>
           </div>
-          <div className="space-y-4">
+          <div className="space-y-4 ">
             <Item  title="What are buildings that qualify for eCol Solutions??">
             Buildings with high energy or water use is strongly urged to fill the Data Form. Your application will be followed by an NDA between your Company and eCol India. If you are an SME, we will sign the NDA including your and your MSME cluster’s stakeholders name(s).
             </Item>

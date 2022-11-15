@@ -4,7 +4,7 @@ import Link from "next/link";
 function IconPages() {
   return (
     <>
-      <section className="text-black md:container md:mx-auto relative ">
+      <section className="text-black border-black border md:container md:mx-auto relative ">
         <div className=" px-5 mt-10  pb-10 ">
           <div className="w-full flex gap-4 lg:justify-center ">
             <h1 className=" capitalize text-xl lg:text-4xl  my-8 text-black text-center ">
@@ -25,7 +25,7 @@ function IconPages() {
                   </p>
                   <div className="flex justify-center mt-4 ">
                     <Link href={""}>
-                      <p className="text-white hover:border-black hover:border-2 p-2 font-bold bg-[#20303c] ease-in duration-300 rounded-md  hover:bg-white hover:text-black   flex justify-center items-center text-left hover:cursor-pointer">
+                      <p className="text-white hover:border-black hover:border-2 p-2 font-bold bg-blue  ease-in duration-300 rounded-md  hover:bg-white hover:text-black   flex justify-center items-center text-left hover:cursor-pointer">
                         Read More
                       </p>
                     </Link>
@@ -48,7 +48,7 @@ function IconPages() {
                   </p>
                   <div className="flex justify-center mt-4 ">
                     <Link href={""}>
-                      <p className="text-white hover:border-black hover:border-2 p-2 font-bold bg-[#20303c] ease-in duration-300 rounded-md  hover:bg-white hover:text-black   flex justify-center items-center text-left hover:cursor-pointer">
+                      <p className="text-white hover:border-black hover:border-2 p-2 font-bold bg-blue ease-in duration-300 rounded-md  hover:bg-white hover:text-black   flex justify-center items-center text-left hover:cursor-pointer">
                         Read More
                       </p>
                     </Link>
@@ -70,7 +70,7 @@ function IconPages() {
                   </p>
                   <div className="flex justify-center mt-4 ">
                     <Link href={""}>
-                      <p className="text-white hover:border-black hover:border-2 p-2 font-bold bg-[#20303c] ease-in duration-300 rounded-md  hover:bg-white hover:text-black   flex justify-center items-center text-left hover:cursor-pointer">
+                      <p className="text-white hover:border-black hover:border-2 p-2 font-bold bg-blue  ease-in duration-300 rounded-md  hover:bg-white hover:text-black   flex justify-center items-center text-left hover:cursor-pointer">
                         Read More
                       </p>
                     </Link>
@@ -93,7 +93,7 @@ function IconPages() {
                   </p>
                   <div className="flex justify-center mt-4 ">
                     <Link href={""}>
-                      <p className="text-white hover:border-black hover:border-2 p-2 font-bold bg-[#20303c] ease-in duration-300 rounded-md  hover:bg-white hover:text-black   flex justify-center items-center text-left hover:cursor-pointer">
+                      <p className="text-white hover:border-black hover:border-2 p-2 font-bold bg-blue ease-in duration-300 rounded-md  hover:bg-white hover:text-black   flex justify-center items-center text-left hover:cursor-pointer">
                         Read More
                       </p>
                     </Link>
