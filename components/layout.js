@@ -287,18 +287,27 @@ export default function Layout({ children }) {
           </div>
 
           <div className="text-sm flex flex-col font-bah text-black  pl-6 lg:p-0   text-center ">
+           
+          <Link href="/managed">
+              <a>Building Managed Better</a>
+            </Link>
             <Link href="/about">
               <a>About Ecol</a>
             </Link>
             <Link href="/solution">
               <a>Solutions</a>
             </Link>
-            <Link href="/engage">
-              <a>How to Engage</a>
-            </Link>
+            
+           
           </div>
 
           <div className="text-sm flex flex-col font-bah text-black lg:p-0  text-center">
+          <Link href="/approach">
+              <a>Ecol Approach</a>
+            </Link>
+            <Link href="/engage">
+              <a>How to Engage</a>
+            </Link>
             <Link href="/resource">
               <a>Resources</a>
             </Link>
