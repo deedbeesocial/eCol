@@ -186,7 +186,7 @@ function About() {
               layout="fill"
               className="absolute h-full w-full object-cover"
               alt=""
-              src="/down/wearezenith.png"
+              src="/down/whyecol.jpg"
             />
           </div>
           <div data-aos="fade-up" data-aos-once="true" className="w-auto">

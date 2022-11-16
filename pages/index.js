@@ -177,12 +177,7 @@ Without The RISK Of Your Investing`}
               <div className="w-1/2 mb-13">
                 {" "}
                 <div className="  flex justify-center">
-                  <video
-                    controls
-                    autoPlay
-                    width=""
-                    className="w-[642px] h-[362px]"
-                  >
+                  <video controls width="" className="w-[642px] h-[362px]">
                     <source src="/video-example.webm" type="video/webm" />
                     <source src="/video/grass.mp4" type="video/mp4" />
                   </video>
@@ -262,7 +257,7 @@ Without The RISK Of Your Investing`}
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="md:container md:mx-auto">
+        <div className="md:container mb- md:mx-auto">
           <div className="w-full flex  lg:justify-center ">
             <h1 className=" capitalize text-xl lg:text-3xl my-10 text-white text-left ">
               {` WHAT YOU GET `}
@@ -271,7 +266,7 @@ Without The RISK Of Your Investing`}
           <div className="grid    items-center grid-cols-1 md:grid-cols-3">
             {whyworkwithus.map(({ text }, index) => {
               return (
-                <div className="my-10  p-2 flex justify-center " key={index}>
+                <div className="my-12  p-2 flex justify-center " key={index}>
                   <p className="mt-2 ">
                     ✅<span> </span>
                   </p>
