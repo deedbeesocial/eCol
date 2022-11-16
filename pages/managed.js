@@ -196,12 +196,7 @@ export default function Managed() {
                 Shopping Malls
               </h2>
               <p className="prose text-black text-justify font-bah pt-8">
-                We will support aspiring and qualified Chartered Accountants and
-                other eligible professionals with classroom training to set you
-                up for employment in audit firms. Our curriculum is designed
-                with industry specific real life case studies that will help you
-                hit the ground running as you embark on your professional
-                journey as an auditor.
+               {`While we enjoy the comfort of malls you don't realise that keeping you cool costs 100-150 thousand litres per day of water that feeds chiller plants. eCol disrupts technology and cost, while offering staggering savings.`}
               </p>
               <div className="flex flex-col">
                 <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -305,16 +300,7 @@ export default function Managed() {
                 Technology Parks
               </h2>
               <p className="prose text-black  text-justify font-bah pt-8">
-                As a corporate - small, medium, or large - you will face
-                defining events throughout the course of your business that will
-                shape the future of your organisation’s financial reporting. Our
-                team of experts are well versed to deal with the developments in
-                and complexity of financial reporting and will help you navigate
-                them with ease. Our offerings are designed around major
-                lifecycle events of your financial reporting. For corporates, we
-                offer a suite of services which will be tailored, practical and
-                compliant with technical standards and regulatory requirements
-                to guide you through various stages of your growth:
+                {`Post-pandemic, technology parks are under pressure to improve bottom lines. eCol solutions can cut your building's running cost, with retrofit investments that fetch over 20-30% IRR.  `}
               </p>
               <div className="flex flex-col">
                 <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">

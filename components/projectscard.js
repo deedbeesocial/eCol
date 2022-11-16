@@ -10,7 +10,7 @@ function Projectscard() {
             {` Boost Your Building's Bottom Lines`}
           </h1>
 
-          <div className="grid grid-cols-1 md:grid-cols-4  mb-10    justify-center md:gap-11 lg:gap-24 ">
+          <div className="grid grid-cols-1 md:grid-cols-4  mb-4    justify-center md:gap-11 lg:gap-24 ">
             <div className="flex  top-0 flex-col bg-blue  rounded-3xl  justify-around h-[350px]   shadow-xl">
               <div className=" rounded-lg ">
                 <div className="w-fit p-5 h-[274px]">

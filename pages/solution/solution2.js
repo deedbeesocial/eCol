@@ -51,7 +51,7 @@ function SolutionOne() {
             </p> */}
           </div>
           <h1 className="text-3xl text-center  my-6 text-black capitalize lg:text-4xl ">
-            out come
+            Outcomes
           </h1>
           <div className="flex flex-col    lg:flex-row  justify-center  gap-20">
             <div className="flex   flex-col  rounded-3xl  justify-around h-[400px]   shadow-xl">
@@ -62,7 +62,7 @@ function SolutionOne() {
                       <img src="/icon/econo.png" alt="" />
                     </div>
                   </div>
-                  <p className="text-center">ECONOMIC</p>
+                  <p className="text-center">Economics</p>
                   <p className="text-black text-justify h-fit   mt-4 ">
                     ✅ 15%+ savings in bulk energy costs
                   </p>
@@ -82,17 +82,12 @@ function SolutionOne() {
                       <img src="/icon/eclo.png" alt="" />
                     </div>
                   </div>
-                  <p className="text-center">ECOLOGICAL</p>
+                  <p className="text-center">Ecological</p>
                   <p className="text-black text-justify h-fit   mt-4 ">
                     ✅ Decrease use of fossil fuels such as LPG and
                     transportation energy costs
                   </p>
-                  <p
-                    className="text-black text-justify  h-fit text-center 
- mt-4 "
-                  >
-                    ✅ Save of diesel and transportation cost
-                  </p>
+                  
                 </div>
               </div>
             </div>
@@ -109,12 +104,7 @@ function SolutionOne() {
                     ✅ 30% + Savings a year on operations cost of feeding water
                     to the chiller plant (Pay as you go Model available)
                   </p>
-                  <p
-                    className="text-black text-justify  h-fit text-center 
- mt-4 "
-                  >
-                    ✅ Save of diesel and transportation cost
-                  </p>
+                 
                 </div>
               </div>
             </div>

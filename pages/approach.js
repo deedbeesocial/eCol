@@ -4,6 +4,7 @@ import Link from "next/link";
 
 export default function Approach() {
   return (
+    <section className="bg-lightgray">
     <section className="md:container md:mx-auto">
       <div className="flex flex-col justify-center">
         <div className="flex justify-center my-5">
@@ -91,6 +92,7 @@ export default function Approach() {
           </Link>
         </div>
       </div>
+    </section>
     </section>
   );
 }

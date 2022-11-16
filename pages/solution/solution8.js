@@ -20,7 +20,7 @@ function SolutionEight() {
               className="h-[90px] w-3/4 flex justify-center   items-center font-bah text-2xl text-white "
             >
               <p className="text-3xl font-bah  title-font text-white ">
-                Re-engineering Local Distribution Energy.
+              Re-engineering Centrally Air-Conditioned Buildings.
               </p>
             </div>
           </div>
@@ -30,18 +30,14 @@ function SolutionEight() {
             The Problem
           </h1>
           <p className="text-center p-4 my-5">
-            The transformer in your office campus potentially loses 10-12
-            percent energy because of poor power quality.
+          A central AC in your building claims nearly 60 percent of your energy bill.
           </p>
           <h1 className="text-3xl text-center  my-5 text-black capitalize lg:text-4xl ">
             Solution Arrays
           </h1>
           <div className="w-full bg-slate-800  grid grid-cols-1 justify-center h-fit">
             <p className="text-white p-4 text-center border">
-              Installing of power quality monitoring systems (PQMs) to monitor,
-              govern and rationalize power flow from the external grid into the
-              distribution gird, and further into feeder pillar boxes,
-              distribution boxes , sub DV, etc.
+            From equipment side to low side, smart tweaks can drop energy bills by 15-30 percent as eCol has proven often. 
             </p>
             {/* <p className="text-white p-4 text-center border">
               Treat STP output water to Health Grade
@@ -66,8 +62,7 @@ function SolutionEight() {
                   </div>
                   <p className="text-center">Economics</p>
                   <p className="text-black text-justify h-fit   mt-4 ">
-                    ✅ Saving of 8-12% on the local grid with no compromise on
-                    comfort for the consumer
+                    ✅ Saving 15-20% of electricity usage
                   </p>
                   <p
                     className="text-black text-justify  h-fit text-center 
@@ -90,8 +85,7 @@ function SolutionEight() {
                   </div>
                   <p className="text-center">Ecological</p>
                   <p className="text-black text-justify h-fit   mt-4 ">
-                    ✅ Lesser use of electricity reducing the environment cost
-                    of generating electricity
+                    ✅ Lesser use of electricity reducing the environment cost of generating electricity
                   </p>
                   <p
                     className="text-black text-justify  h-fit text-center 
@@ -112,7 +106,7 @@ function SolutionEight() {
                   </div>
                   <p className="text-center">Social</p>
                   <p className="text-black text-justify h-fit   mt-4 ">
-                    ✅ Softer footprint with less use of natural resources
+                    ✅ Reduced climate change as energy requirement is reduced
                   </p>
                   {/*  <p className="text-black text-justify  h-fit text-center 
  mt-4 ">

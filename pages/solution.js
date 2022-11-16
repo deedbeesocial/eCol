@@ -50,7 +50,7 @@ export default function Solution() {
     },
     {
       name: "Transformers can being silent savings",
-      link: "/solution/solution8",
+      link: "/solution/solution9",
       image: "/so/so8.jpg",
       text: "",
     },

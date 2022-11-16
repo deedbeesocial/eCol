@@ -58,11 +58,11 @@ function Blogone() {
               <div className=" rounded-lg ">
                 <div className="w-[267px] flex flex-col justify-center p-5 h-[px]">
                   <div className="w-full flex justify-center">
-                    <div className="w-[70px] rounded-full  h-[70px]">
+                    <div className="w-[70px] rounded-full  h-[80px]">
                       <img src="/icon/econo.png" alt="" />
                     </div>
                   </div>
-                  <p className="text-center">ECONOMIC</p>
+                  <p className="text-center">Economics</p>
                   <p className="text-black text-justify h-fit   mt-4 ">
                     ✅ 30% + Savings a year on operations cost of feeding water
                     to the chiller plant (Pay as you go Model available)
@@ -81,20 +81,25 @@ function Blogone() {
               <div className=" rounded-lg ">
                 <div className="w-[267px] flex flex-col justify-center p-5 h-[px]">
                   <div className="w-full flex justify-center">
-                    <div className="w-[70px] rounded-full  h-[70px]">
+                    <div className="w-[70px] rounded-full  h-[80px]">
                       <img src="/icon/eclo.png" alt="" />
                     </div>
                   </div>
-                  <p className="text-center">ECONOMIC</p>
+                  <p className="text-center">Ecological</p>
                   <p className="text-black text-justify h-fit   mt-4 ">
-                    ✅ 30% + Savings a year on operations cost of feeding water
-                    to the chiller plant (Pay as you go Model available)
+                    ✅ Drops exploitation of ground water aquifers
                   </p>
                   <p
                     className="text-black text-justify  h-fit text-center 
  mt-4 "
                   >
-                    ✅ Save of diesel and transportation cost
+                    ✅ Cools the micro climate
+                  </p>
+                  <p
+                    className="text-black text-justify  h-fit text-center 
+ mt-4 "
+                  >
+                    ✅ Healthier ground water systems
                   </p>
                 </div>
               </div>
@@ -103,21 +108,15 @@ function Blogone() {
               <div className=" rounded-lg ">
                 <div className="w-[267px] flex flex-col justify-center p-5 h-[px]">
                   <div className="w-full flex justify-center">
-                    <div className="w-[70px] rounded-full  h-[70px]">
+                    <div className="w-[70px] rounded-full  h-[80px]">
                       <img src="/icon/social.png" alt="" />
                     </div>
                   </div>
-                  <p className="text-center">ECONOMIC</p>
+                  <p className="text-center">Social</p>
                   <p className="text-black text-justify h-fit   mt-4 ">
-                    ✅ 30% + Savings a year on operations cost of feeding water
-                    to the chiller plant (Pay as you go Model available)
+                    ✅ Greater water security and healthy water access
                   </p>
-                  <p
-                    className="text-black text-justify  h-fit text-center 
- mt-4 "
-                  >
-                    ✅ Save of diesel and transportation cost
-                  </p>
+                 
                 </div>
               </div>
             </div>

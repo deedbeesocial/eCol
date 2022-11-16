@@ -155,8 +155,8 @@ export default function Home() {
         // }}
       >
         <div className=" md:container md:mx-auto    lg:rounded-lg text-left">
-          <div className="lg:w-full  p-4    lg:h-[600px] flex flex-col lg:flex-col ">
-            <div className="mt-  mb- flex justify-center   mt-10 flex-col lg:flex-row">
+          <div className="lg:w-full     my-16 flex flex-col lg:flex-col ">
+            <div className="mb-20  mt-24 flex justify-center    flex-col lg:flex-row">
               <div className="w-full lg:w-1/2">
                 <div className="w-full flex  lg:justify-center ">
                   <h1 className=" capitalize text-xl lg:text-3xl mb-10 text-black text-left ">
@@ -165,11 +165,13 @@ Without The RISK Of Your Investing`}
                   </h1>
                 </div>
                 <p className=" text-justify   text- text-black leading-loose">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Molestias provident beatae voluptate nihil odit eius
-                  voluptates reprehenderit alias, consequatur, aspernatur ullam
-                  repudiandae sequi repellendus doloremque dolores rem ab itaque
-                  nobis!
+                  Sustainability is a business approach to creating long-term
+                  value by examining how you operate in the ecological, social
+                  and economic environment. Developing such strategies offers
+                  long-term, competitive advantage. With the need for greater
+                  corporate responsibility and transparency, companies now
+                  recognize the need to go sustainable and soften ecological
+                  footprint.
                 </p>
               </div>
               <div className="w-1/2 mb-13">
@@ -200,8 +202,13 @@ Without The RISK Of Your Investing`}
 
       <IconPages />
 
-      <section className=" md:container md:mx-auto flex justify-center">
-        <div>
+      <section className=" md:container md:mx-auto flex flex-col justify-center">
+        <div className="w-full flex  lg:justify-center ">
+          <h1 className=" capitalize text-xl lg:text-3xl my-7 text-black text-left ">
+            {` A WHOLE NEW WORLD OF SOLUTIONS `}
+          </h1>
+        </div>
+        <div className="flex justify-center">
           <img src="/solutions/solution.png" alt="" />
         </div>
       </section>
@@ -223,7 +230,7 @@ Without The RISK Of Your Investing`}
             How It Works For You
           </p>
           <img src="/solutions/howitwork.png" alt="" />
-          <div className="flex justify-center mt-4 mb-8 ">
+          <div className="flex justify-center mt-4 mb-20 ">
             <Link href={"/solution"}>
               <p className="text-blue hover:border-blue hover:border-2 p-2 font-bold bg-white border-blue border-2   ease-in duration-300 rounded-md  hover:bg-blue hover:text-white  flex justify-center items-center text-left hover:cursor-pointer">
                 Explore Solutions
@@ -256,6 +263,11 @@ Without The RISK Of Your Investing`}
         }}
       >
         <div className="md:container md:mx-auto">
+          <div className="w-full flex  lg:justify-center ">
+            <h1 className=" capitalize text-xl lg:text-3xl my-10 text-white text-left ">
+              {` WHAT YOU GET `}
+            </h1>
+          </div>
           <div className="grid    items-center grid-cols-1 md:grid-cols-3">
             {whyworkwithus.map(({ text }, index) => {
               return (
@@ -263,7 +275,9 @@ Without The RISK Of Your Investing`}
                   <p className="mt-2 ">
                     ✅<span> </span>
                   </p>
-                  <p className="text-white w-[300px] font-semibold text-xl">{text}</p>
+                  <p className="text-white w-[300px] font-semibold text-xl">
+                    {text}
+                  </p>
                 </div>
               );
             })}

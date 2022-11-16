@@ -163,13 +163,13 @@ function About() {
           <div
             data-aos="fade-up"
             data-aos-once="true"
-            className="w-auto h-48 lg:h-[630px] md:mt-16 relative"
+            className="w-auto h-48 lg:h-[600px] md:mt-16 relative"
           >
             <Image
               layout="fill"
               className="absolute h-[800px] w-full object-cover"
               alt=""
-              src="/down/carbon.png"
+              src="/down/carbon2.png"
             />
           </div>
 
@@ -180,7 +180,7 @@ function About() {
           <div
             data-aos="fade-up"
             data-aos-once="true"
-            className="w-auto h-48 mt-5 lg:h-auto relative"
+            className="w-auto h-48 mt-5 lg:h-[650px] relative"
           >
             <Image
               layout="fill"
