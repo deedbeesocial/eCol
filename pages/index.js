@@ -84,7 +84,7 @@ export default function Home() {
       <section
         className=" lg:h-[800px]   "
         style={{
-          backgroundImage: `url(${"/down/building.png"})`,
+          backgroundImage: `url(${"/down/welcometothe.png"})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",

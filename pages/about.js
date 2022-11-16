@@ -10,19 +10,20 @@ function About() {
         "Dr. Hariharan is an environmental economist, entrepreneur, sustainability professional, mentor, writer, policy advocate and urban analyst. He is founder of BCIL AltTech Foundation, a non-government, not-for-profit, industry-led and industry-managed Trust. Its mission objective and his work over thirty years has focused on zero energy development strategies for buildings with freedom from the grid for energy, water and waste.",
     },
     {
+      name: "U V Krishna Mohan Rao",
+      image: "/about/uv.png",
+      role: "",
+      description:
+        "U V Krishna Mohan Rao, is an engineer with a Masters from the College of Engineering, University of Wisconsin, and IIM-A in the early 1980s. He worked for a decade with the legendary C K Prahalad of Michigan University. For nearly four decades, he has practised energy efficiency with solutions offered for a host of marquee companies in India, and 20 other countries, with over 3000 energy audits that he has presided over in a cross section of industry segments. He is currently energy advisor for 5 star hotel chains in India. UVK is actively involved in Green Business and to date covered over 200 million sq.ft for sustainability consulting including IT Parks, Malls, Hotels, Resorts, Residential and Temple complexes.",
+    },
+    {
       name: "Pallavi Singh",
       image: "/about/palvi.jpg",
       role: "",
       description:
         "Pallavi Singh is an Urban and Regional Planner, and Research Associate at AltTech.Foundation. She has worked on socio-economic and development aspects of urban development and governance for cities like Usilampatti in TN, Bhopal and Jabalpur in MP. She has been city representative for a project under Climate Action Framework for Smart cities  for Rourkela in Odisha. She has written a chapter for a book titled “Advances in Urbanism, Smart Cities and Sustainability” to be published by Taylor and Francis group/CRC Press.",
     },
-    // {
-    //   name: "",
-    //   image: "/about/",
-    //   role: "",
-    //   description:
-    //     "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
-    // },
+    
   ];
 
   return (
@@ -137,7 +138,7 @@ function About() {
             Meet Our Team
           </h1>
 
-          <div className="grid grid-cols-1  gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-2">
+          <div className="grid grid-cols-1  gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
             {team.map(({ name, image, role, description, id }) => {
               return (
                 <div key={id} className="flex   flex-col items-center p-5">
