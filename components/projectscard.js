@@ -11,7 +11,7 @@ function Projectscard() {
           </h1>
 
           <div className="grid grid-cols-1 md:grid-cols-4  mb-10    justify-center md:gap-11 lg:gap-24 ">
-            <div className="flex  top-0 flex-col bg-blue  rounded-3xl  justify-around h-[300px]   shadow-xl">
+            <div className="flex  top-0 flex-col bg-blue  rounded-3xl  justify-around h-[350px]   shadow-xl">
               <div className=" rounded-lg ">
                 <div className="w-fit p-5 h-[274px]">
                   <p className="text-xl font-semibold  text-white text-center mt-4">
@@ -25,7 +25,7 @@ function Projectscard() {
               </div>
             </div>
 
-            <div className=" rounded-3xl  flex flex-col bg-[#00f2c2]  justify-around h-[300px]   shadow-xl">
+            <div className=" rounded-3xl  flex flex-col bg-[#00f2c2]  justify-around h-[350px]   shadow-xl">
               <div className=" rounded-lg ">
                 <div className="  p-5 h-[274px]">
                   <p className="text-xl text-center font-semibold mt-4">
@@ -39,7 +39,7 @@ function Projectscard() {
               </div>
             </div>
 
-            <div className=" rounded-3xl  flex flex-col bg-blue  justify-around h-[300px]   shadow-xl ">
+            <div className=" rounded-3xl  flex flex-col bg-blue  justify-around h-[350px]   shadow-xl ">
               <div className=" rounded-lg ">
                 <div className="  p-5 h-[290px]">
                   <p className="text-xl text-center text-white font-semibold mt-4">
@@ -53,7 +53,7 @@ function Projectscard() {
               </div>
             </div>
 
-            <div className="rounded-3xl  flex flex-col bg-[#00f2c2]  justify-around h-[300px]   shadow-xl">
+            <div className="rounded-3xl  flex flex-col bg-[#00f2c2]  justify-around h-[350px]   shadow-xl">
               <div className=" rounded-lg ">
                 <div className="  p-5 h-[290px]">
                   <p className="text-xl text-center font-semibold mt-4">
