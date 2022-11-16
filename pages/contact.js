@@ -127,7 +127,7 @@ export default function Contact() {
                       control={control}
                       name="name"
                       type="text"
-                      label="Name of the firm"
+                      label="Name"
                       rules={{
                         required: {
                           value: true,
