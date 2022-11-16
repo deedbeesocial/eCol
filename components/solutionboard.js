@@ -38,22 +38,27 @@ export default function solutionboard() {
 
   return (
     <>
-      <div className="flex justify-center my-10 w-[1000px] flex-col">
+      <div className="flex md:container md:mx-auto justify-center my-10  flex-col">
         <div className="flex my-8 justify-center ">
-          <p className="text-3xl text-white text-center mb-4">Solution Across The Board</p>
+          <p className="text-3xl text-white text-center mb-4">
+            Solution Across The Board
+          </p>
         </div>
 
-        <div className="grid grid-cols-4 mb-10 flex-wrap ">
+        <div className="grid grid-cols-1 justify-center items-center md:grid-cols-4 gap-x-16 gap-y-2 mb-10 flex-wrap ">
           {items.map(({ name, icon }, index) => {
             return (
-              
-                <div key={index} className="w-[241px] border-slate-300 p-5 border-2 flex flex-col justify-center h-[200px]">
-                  <p className="text-white text-center mb-2 ">{name}</p>
-                  <div className="flex justify-center">
-                    <img src={icon} className="w-[64px] h-[64px]" alt="" />
-                  </div>
+              <div
+                key={index}
+                className="w- border-slate-300 p-5 border-2 flex flex-col justify-center "
+              >
+                <p className="text-white font-semibold text-center mb-2 ">
+                  {name}
+                </p>
+                <div className="flex justify-center">
+                  <img src={icon} className="w-[64px] h-[64px]" alt="" />
                 </div>
-              
+              </div>
             );
           })}
         </div>

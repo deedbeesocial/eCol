@@ -23,7 +23,6 @@ function About() {
       description:
         "Pallavi Singh is an Urban and Regional Planner, and Research Associate at AltTech.Foundation. She has worked on socio-economic and development aspects of urban development and governance for cities like Usilampatti in TN, Bhopal and Jabalpur in MP. She has been city representative for a project under Climate Action Framework for Smart cities  for Rourkela in Odisha. She has written a chapter for a book titled “Advances in Urbanism, Smart Cities and Sustainability” to be published by Taylor and Francis group/CRC Press.",
     },
-    
   ];
 
   return (
@@ -48,8 +47,8 @@ function About() {
           </p>
         </div>
       </section>
-      <section className="md:pt-14 text-black  " id="WhoWe-Are">
-        <div className="p-4 md:container flex flex-wrap gap-10 mx-auto">
+      
+        {/* <div className="p-4 md:container flex flex-wrap gap-10 mx-auto">
           <div className="w-auto lg:min-w-[700px] flex-1 pb-10">
             <h1 className="text-4xl text-center tracking-wide  text-black">
               Sustainability
@@ -89,18 +88,20 @@ function About() {
         <h1 className="text-4xl tracking-wide mb-10 text-center  text-black">
           WHY eCol?
         </h1>
-       <div className="flex gap-32 justify-center  flex-row">
-        <div className="w-1/2">
-        <p className=" prose text-justify pt-8 p-2">
-          At eCol we believe that we need to find ways to meet our current
-          consumption needs without jeopardizing the future. Business growth,
-          profitability and sustainability cannot exist in isolation.{" "}<span className="font-semibold tracking-wide mb-10 text-center  text-black">
-          We want to help create a profitable green future.
-        </span>
-        </p>
-        
-        <p className="text-black text-justify  p-2 ">
-          {`
+        <div className="flex gap-32 justify-center  flex-row">
+          <div className="w-1/2">
+            <p className=" prose text-justify pt-8 p-2">
+              At eCol we believe that we need to find ways to meet our current
+              consumption needs without jeopardizing the future. Business
+              growth, profitability and sustainability cannot exist in
+              isolation.{" "}
+              <span className="font-semibold tracking-wide mb-10 text-center  text-black">
+                We want to help create a profitable green future.
+              </span>
+            </p>
+
+            <p className="text-black text-justify  p-2 ">
+              {`
           eCol brings innovative Green Financing solutions for building
           infrastructure. Off-balance sheet mechanisms which own a range of
           applicable equipment configured in such a way as to reduce the
@@ -113,11 +114,12 @@ function About() {
           implementation. If yours is an old building, all the more reason for
           you to retrofit solutions. New projects can gain from 'Doing it right
           the first time'.`}
-        </p>
-        </div>
-        <div><img className="h-[500px]" src="/down/wearezenith.png" alt="" /></div>
-
-       </div>
+            </p>
+          </div>
+          <div>
+            <img className="h-[500px]" src="/down/wearezenith.png" alt="" />
+          </div>
+        </div> */}
         {/* <div className="lg:container mb-10  mx-auto">
          
           <div className="flex justify-center mt-4 mb-8 ">
@@ -128,7 +130,105 @@ function About() {
             </Link>
           </div>
         </div> */}
-      </section>
+     
+      <div className="md:container  mx-auto">
+        <div className="grid mb-14 lg:grid-cols-2 grid-cols-1 md:gap-x-20 gap-4 md:pt- pt-4">
+          <div
+            className="w-full block h-[10px] md:h-[0px] lg:col-span-2  col-span-1 "
+            id="AuditingFirms"
+          ></div>
+          <div className="w-auto mt-16">
+            <h2 className="text-3xl font-bah  title-font text-black   mb-4">
+              Sustainability
+            </h2>
+            <p className="prose text-justify text-black font-bah pt-8">
+              Sustainability is a business approach to creating long-term value
+              by examining how you operate in the ecological, social and
+              economic environment. <br /><br /> Developing such strategies offers long-term,
+              competitive advantage. With the need for greater corporate
+              responsibility and transparency, companies now recognize the need
+              to go sustainable and soften ecological footprint.
+            </p>
+
+            {/* <p className="prose  font-bah lg:mb-0 mb-5 pt-8">
+              <Link href="/contact">
+                <a className="active:text-red underline   font-bah font-bold hover:text-orange decoration-blue text-blue">
+                  Get in touch
+                </a>
+              </Link>{" "}
+              to know more.
+            </p> */}
+          </div>
+
+          <div
+            data-aos="fade-up"
+            data-aos-once="true"
+            className="w-auto h-48 lg:h-[630px] md:mt-16 relative"
+          >
+            <Image
+              layout="fill"
+              className="absolute h-[800px] w-full object-cover"
+              alt=""
+              src="/down/carbon.png"
+            />
+          </div>
+
+          <div
+            className="w-full font-bah block h-[10px] md:h-[50px] lg:col-span-2  col-span-1 "
+            id="CharteredAccount"
+          ></div>
+          <div
+            data-aos="fade-up"
+            data-aos-once="true"
+            className="w-auto h-48 mt-5 lg:h-auto relative"
+          >
+            <Image
+              layout="fill"
+              className="absolute h-full w-full object-cover"
+              alt=""
+              src="/down/wearezenith.png"
+            />
+          </div>
+          <div data-aos="fade-up" data-aos-once="true" className="w-auto">
+            <h2 className="text-3xl font-bah  title-font text-black   mb-4">
+              WHY eCol?
+            </h2>
+            <p className="prose text-black text-justify font-bah pt-8">
+              At eCol we believe that we need to find ways to meet our current
+              consumption needs without jeopardizing the future. Business
+              growth, profitability and sustainability cannot exist in
+              isolation.{" "}
+              <span className="font-semibold tracking-wide mb-10 text-center  text-black">
+                We want to help create a profitable green future.
+              </span>
+            </p>
+            <p className="prose text-black text-justify font-bah pt-8">
+              {`
+          eCol brings innovative Green Financing solutions for building
+          infrastructure. Off-balance sheet mechanisms which own a range of
+          applicable equipment configured in such a way as to reduce the
+          operations cost of buildings. eCol brings professional analyses of
+          properties, designs for water and energy efficient solutions, installs
+          infrastructure elements, and maintains systems to ensure energy
+          savings with defined payback period. ​ eCol Solutions synthesizes
+          low-carbon strategies for buildings and built environments. We provide
+          a wide array of solutions with wholesome approaches to design and
+          implementation. If yours is an old building, all the more reason for
+          you to retrofit solutions. New projects can gain from 'Doing it right
+          the first time'.`}
+            </p>
+
+            {/* <p className="prose  font-bah lg:mb-0 mb-5 pt-8">
+              <Link href="/contact">
+                <a className="active:text-red  font-bah font-bold underline hover:text-orange decoration-blue text-blue">
+                  Get in touch
+                </a>
+              </Link>{" "}
+              to know more.
+            </p> */}
+          </div>
+        </div>
+      </div>
 
       {/* core teaaaaaaaaaaaaaaaaaaaaaaam */}
       <div className="w-full h-[20px]" id="MeetOur-Team"></div>
@@ -160,7 +260,6 @@ function About() {
                       {description}
                     </p>
                   </div>
-                 
                 </div>
               );
             })}

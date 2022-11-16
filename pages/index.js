@@ -146,7 +146,7 @@ export default function Home() {
       </section> */}
       <section
         data-aos="fade-up"
-        className="text-black bg-lightgray body-font   lg:py-12"
+        className="text-black bg-lightgray body-font  "
         // style={{
         //   backgroundImage: `url(${"/carosel/welcometothe.png"})`,
         //   backgroundSize: "cover",
@@ -155,18 +155,16 @@ export default function Home() {
         // }}
       >
         <div className=" md:container md:mx-auto    lg:rounded-lg text-left">
-          <div className="lg:w-full mb-7 mx-auto lg:h-[600px] flex flex-col lg:flex-col ">
-            <h1 className=" capitalize text-xl lg:text-4xl  my-16 text-black text-center ">
-              {`  Getting A Hold Of Essential Sustainability
-Without The RISK Of Your Investing`}
-            </h1>
-
-            <div className="mt-10  mb-13 flex justify-center    flex-col lg:flex-row">
+          <div className="lg:w-full  p-4    lg:h-[600px] flex flex-col lg:flex-col ">
+            <div className="mt-  mb- flex justify-center   mt-10 flex-col lg:flex-row">
               <div className="w-full lg:w-1/2">
                 <div className="w-full flex  lg:justify-center ">
-                 
+                  <h1 className=" capitalize text-xl lg:text-3xl mb-10 text-black text-left ">
+                    {`  Getting A Hold Of Essential Sustainability
+Without The RISK Of Your Investing`}
+                  </h1>
                 </div>
-                <p className=" text-justify  p-10 text- text-black leading-loose">
+                <p className=" text-justify   text- text-black leading-loose">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Molestias provident beatae voluptate nihil odit eius
                   voluptates reprehenderit alias, consequatur, aspernatur ullam
@@ -202,7 +200,7 @@ Without The RISK Of Your Investing`}
 
       <IconPages />
 
-      <section className="flex justify-center">
+      <section className=" md:container md:mx-auto flex justify-center">
         <div>
           <img src="/solutions/solution.png" alt="" />
         </div>
@@ -215,11 +213,11 @@ Without The RISK Of Your Investing`}
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
         }}
-        className="flex justify-center"
+        className=""
       >
         <SolutionBoard />
       </section>
-      <section className="flex justify-center">
+      <section className="flex  md:container md:mx-auto justify-center">
         <div>
           <p className="text-3xl text-black text-center mt-14">
             How It Works For You
@@ -227,7 +225,7 @@ Without The RISK Of Your Investing`}
           <img src="/solutions/howitwork.png" alt="" />
           <div className="flex justify-center mt-4 mb-8 ">
             <Link href={"/solution"}>
-              <p className="text-white hover:border-black hover:border-2 p-3 font-bold bg-blue ease-in duration-300 rounded-md  hover:bg-white hover:text-black   flex justify-center items-center text-left hover:cursor-pointer">
+              <p className="text-blue hover:border-blue hover:border-2 p-2 font-bold bg-white border-blue border-2   ease-in duration-300 rounded-md  hover:bg-blue hover:text-white  flex justify-center items-center text-left hover:cursor-pointer">
                 Explore Solutions
               </p>
             </Link>
@@ -258,12 +256,14 @@ Without The RISK Of Your Investing`}
         }}
       >
         <div className="md:container md:mx-auto">
-          <div className="grid  w-fit  grid-cols-3">
+          <div className="grid    items-center grid-cols-1 md:grid-cols-3">
             {whyworkwithus.map(({ text }, index) => {
               return (
-                <div className="my-10 p-2 flex  " key={index}>
-                  <p className="mt-2">✅<span>{" "}</span></p>
-                  <p className="text-white font-semibold text-2xl">{text}</p>
+                <div className="my-10  p-2 flex justify-center " key={index}>
+                  <p className="mt-2 ">
+                    ✅<span> </span>
+                  </p>
+                  <p className="text-white w-[300px] font-semibold text-xl">{text}</p>
                 </div>
               );
             })}

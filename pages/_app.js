@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
       <Head >
         <title>eCol</title>
         <meta name="description" content="Official website for eCol" />
-        <link rel="icon" href="/ZLOGO1.png " />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />
       {soicalmedia && <Fixeddiv clicked={clicked} />}

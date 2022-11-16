@@ -230,7 +230,7 @@ export default function Layout({ children }) {
       </div>
 
       <main
-        className="text-zinc-900 font-sans  "
+        className="text-zinc-900  font-sans  "
         onClick={() => {
           setView(false);
         }}
@@ -327,7 +327,7 @@ export default function Layout({ children }) {
               <a
                 className="hover:scale-105 transition-all"
                 href=""
-                target="_blank"
+                // target="_blank"
                 rel="noreferrer"
               >
                 <img src="/icons/linkidin.gif" className="w-8 h-8" alt="" />
@@ -335,7 +335,7 @@ export default function Layout({ children }) {
               <a
                 className="hover:scale-105 transition-all"
                 href=""
-                target="_blank"
+                // target="_blank"
                 rel="noreferrer"
               >
                 <img src="/icons/twitter.gif" className="w-8 h-8" alt="" />
@@ -344,7 +344,7 @@ export default function Layout({ children }) {
               <a
                 className="hover:scale-105 transition-all"
                 href=""
-                target="_blank"
+                // target="_blank"
                 rel="noreferrer"
               >
                 <img src="/icons/instagram.gif" className="w-8 h-8" alt="" />

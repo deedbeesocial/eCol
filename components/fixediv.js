@@ -15,7 +15,7 @@ export default function Fixediv({ clicked }) {
             className="mx-1.5 text-black transition-colors duration-300 transform hover:text-blue-500"
             href=""
             rel="noopener noreferrer"
-            target="_blank"
+            // target="_blank"
           >
             <img src="/icons/twitter.gif" className="w-8 h-8" alt="" />
           </a>
@@ -24,7 +24,7 @@ export default function Fixediv({ clicked }) {
             className="mx-1.5 text-black transition-colors duration-300 transform hover:text-blue-500"
             href=""
             rel="noopener noreferrer"
-            target="_blank"
+            // target="_blank"
           >
             <img src="/icons/linkidin.gif" className="w-8 h-8" alt="" />
           </a>
@@ -33,7 +33,7 @@ export default function Fixediv({ clicked }) {
             className="mx-1.5 text-black mb-2 transition-colors duration-300 transform hover:text-blue-500"
             href=""
             rel="noopener noreferrer"
-            target="_blank"
+            // target="_blank"
           >
             <img src="/icons/instagram.gif" className="w-8 h-8" alt="" />
           </a>
