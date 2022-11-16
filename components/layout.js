@@ -287,8 +287,7 @@ export default function Layout({ children }) {
           </div>
 
           <div className="text-sm flex flex-col font-bah text-black  pl-6 lg:p-0   text-center ">
-           
-          <Link href="/managed">
+            <Link href="/managed">
               <a>Building Managed Better</a>
             </Link>
             <Link href="/about">
@@ -297,12 +296,10 @@ export default function Layout({ children }) {
             <Link href="/solution">
               <a>Solutions</a>
             </Link>
-            
-           
           </div>
 
           <div className="text-sm flex flex-col font-bah text-black lg:p-0  text-center">
-          <Link href="/approach">
+            <Link href="/approach">
               <a>Ecol Approach</a>
             </Link>
             <Link href="/engage">
