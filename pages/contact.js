@@ -1,69 +1,64 @@
 import React, { useState } from "react";
+import { useForm } from "react-hook-form";
+import InputController from "../components/InputController";
 
 export default function Contact() {
-  const [name, setName] = useState("");
-  const [nametwo, setNametwo] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [interest, setInterest] = useState("Contract Manufacturing");
-  const [info, setInfo] = useState("");
-  const [message, setMessage] = useState(false);
-  const [visible, setVisible] = useState(false);
+  const {
+    register,
+    control,
+    handleSubmit,
+    formState: { errors },
+    reset,
+    watch,
+    setValue,
+  } = useForm({
+    mode: "onChange",
+  });
+  const isButtonVisble =
+    watch("name") &&
+    watch("organization") &&
+    watch("email") &&
+    watch("phone") &&
+    watch("info");
+  const submit = handleSubmit(async (data) => {
+    const { name, organization, email, phone, info } = data;
 
-  const sendMessage = async (e) => {
-    e.preventDefault();
-    console.log("working");
+    try {
+      const response = await fetch(
+        "",
 
-    console.log("name", name);
-    console.log("email", email);
-    console.log("phone", phone);
-    console.log("interest", interest);
-    console.log("info", info);
-
-    if (!name || !email || !phone || !info) {
-      return;
-    }
-
-    const response = await fetch("", {
-      method: "POST",
-      headers: {},
-      body: JSON.stringify({ name, email, phone, info, interest }),
-    });
-
-    console.log("response", response);
-
-    if (response.status === 200) {
-      setName("");
-      setEmail("");
-      setPhone("");
-      setInterest("");
-      setInfo("");
-      setMessage(
-        "Your message is sent. We'll get back to you at the earliest!"
+        {
+          method: "POST",
+          headers: {},
+          body: JSON.stringify({
+            type: "contact",
+            name,
+            organization,
+            email,
+            phone,
+            info,
+          }),
+        }
       );
-    } else {
-      console.log(JSON.stringify(response));
-    }
-  };
 
-  const changeName = (e) => {
-    setName(e.target.value);
-  };
-  const changeEmail = (e) => {
-    setEmail(e.target.value);
-  };
-  const changePhone = (e) => {
-    setPhone(e.target.value);
-  };
-  const changeInfo = (e) => {
-    setInfo(e.target.value);
-  };
-  const change = (e) => {
-    setNametwo(e.target.value);
-  };
-  if (name && email && phone && info && interest) {
-    console.log("iam visible");
-  }
+      if (response.status === 200) {
+        reset({
+          name: "",
+          organization: "",
+          email: "",
+          phone: "",
+          info: "",
+        });
+
+        setMessage(true);
+      } else {
+        throw Error("Error while sending message");
+      }
+    } catch (error) {
+      alert("Some thing went wrong");
+    }
+  });
+  const [message, setMessage] = useState(false);
 
   return (
     <>
@@ -86,86 +81,125 @@ export default function Contact() {
               </div>
 
               <div className=" md:w-fit w-full  lg:p-0 pl-6 mr-6 mb-2 ">
-            <p className="font-semibold md:mt-0 mt-5  pb-2 font-bah  text-black text-center md:text-center">
-              FIND US ON
-            </p>
-            <div className="md:mt-0 mt-5 grid-cols-3 gap-10 flex justify-center   ">
-              <a
-                className="hover:scale-105 transition-all"
-                href=""
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src="/icons/linkidin.gif" className="w-8 h-8" alt="" />
-              </a>
-              <a
-                className="hover:scale-105 transition-all"
-                href=""
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src="/icons/twitter.gif" className="w-8 h-8" alt="" />
-              </a>
+                <p className="font-semibold md:mt-0 mt-5  pb-2 font-bah  text-black text-center md:text-center">
+                  FIND US ON
+                </p>
+                <div className="md:mt-0 mt-5 grid-cols-3 gap-10 flex justify-center   ">
+                  <a
+                    className="hover:scale-105 transition-all"
+                    href=""
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src="/icons/linkidin.gif" className="w-8 h-8" alt="" />
+                  </a>
+                  <a
+                    className="hover:scale-105 transition-all"
+                    href=""
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src="/icons/twitter.gif" className="w-8 h-8" alt="" />
+                  </a>
 
-              <a
-                className="hover:scale-105 transition-all"
-                href=""
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src="/icons/instagram.gif" className="w-8 h-8" alt="" />
-              </a>
-            </div>
-          </div>
+                  <a
+                    className="hover:scale-105 transition-all"
+                    href=""
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="/icons/instagram.gif"
+                      className="w-8 h-8"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
 
             <div className="md:w-3/5 w-full">
               <div className=" md:pt-0 pt-12">
                 <h2 className="text-2xl text-black ">Write to us</h2>
-                <form className="mt-8" onSubmit={sendMessage}>
+                <div className="mt-8">
                   <div className="lg:grid flex flex-col justify-center lg:grid-cols-2 gap-6">
+                    <InputController
+                      control={control}
+                      name="name"
+                      type="text"
+                      label="Name of the firm"
+                      rules={{
+                        required: {
+                          value: true,
+                          message: "This field is required",
+                        },
+                      }}
+                    />
                     <label className="block">
-                      <span className="text-black">Name</span>
-                      <input
+                      <InputController
+                        control={control}
+                        name="organization"
                         type="text"
-                        className="block  w-full lg:h-[47px] rounded-sm   focus:border-blue focus:ring focus:ring-blue focus:ring-opacity-50"
-                        placeholder=""
-                        value={name}
-                        onChange={changeName}
-                      />
-                    </label>
-                    <label className="block">
-                      <span className="text-black">Organization</span>
-                      <input
-                        type="text"
-                        className="block  w-full lg:h-[47px] rounded-sm   focus:border-blue focus:ring focus:ring-blue focus:ring-opacity-50"
-                        placeholder=""
-                        value={nametwo}
-                        onChange={nametwo}
+                        label="Organization"
+                        rules={{
+                          required: {
+                            value: true,
+                            message: "This field is required",
+                          },
+                        }}
                       />
                     </label>
 
                     <label className="block">
-                      <span className="text-black">Email</span>
-                      <input
-                        type="email"
-                        className=" block  w-full lg:h-[47px] rounded-sm   focus:border-blue focus:ring focus:ring-blue focus:ring-opacity-50"
-                        placeholder=""
-                        value={email}
-                        onChange={changeEmail}
+                      <InputController
+                        control={control}
+                        name="email"
+                        type="text"
+                        label="Email"
+                        rules={{
+                          required: {
+                            value: true,
+                            message: "This field is required",
+                          },  pattern: {
+                            value:
+                              /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+                            message: "Enter a valid Email",
+                          },
+                        }}
                       />
                     </label>
                     <label className="block">
-                      <span className="text-black">Phone</span>
-                      <input
-                        type="tel"
-                        className=" block  w-full lg:h-[47px] rounded-sm   focus:border-blue focus:ring focus:ring-blue focus:ring-opacity-50"
-                        placeholder=""
-                        value={phone}
-                        onChange={changePhone}
+                      <InputController
+                        control={control}
+                        name="phone"
+                        type="number"
+                        label="Phone"
+                        rules={{
+                          required: {
+                            value: true,
+                            message: "This field is required",
+                          },
+                        }}
                       />
                     </label>
                   </div>
+                  <label className="block mt-6">
+                    <span className="text-black">Type Your Message</span>
+                    <textarea
+                      className="mt-1 block w-full border border-  lg:h-28 rounded-sm  focus:border-green-700 focus:ring focus:ring-green focus:ring-opacity-50"
+                      rows="3"
+                      {...register("info", {
+                        required: true,
+                      })}
+                    ></textarea>
+                    <label
+                      className={`text-red-600   text-xs py-1 ${
+                        errors.info ? "visible" : "invisible"
+                      }`}
+                    >
+                      This field is required
+                    </label>
+                  </label>
                   {/* <div className="mt-6">
                   <label className="block">
                       <span className="text-black">
@@ -186,33 +220,26 @@ export default function Contact() {
                       </select>
                     </label>
                   </div> */}
-                  <label className="block mt-6">
-                    <span className="text-black">Type Your Message</span>
-                    <textarea
-                      className="mt-1 block w-full   lg:h-28 rounded-sm border-black focus:border-blue focus:ring focus:ring-blue focus:ring-opacity-50"
-                      rows="3"
-                      value={info}
-                      onChange={changeInfo}
-                    ></textarea>
-                  </label>
-                  <div className="w-full flex justify-center items-center">
+                  <label className="block mt-6"></label>
+                  <div className="flex justify-center">
                     {message ? (
                       <p className="text-green text-md font-semibold pt-6 ">
-                        {message}
+                        {`Your message is sent. We'll get back to you at the earliest`}
                       </p>
                     ) : (
                       <button
-                        className={`w-32 mt-6 bg-blue text-white font-bold text-xs   p-3 rounded-sm transition-all ${
-                          name && email && phone && info && interest
-                            ? "opacity-100"
-                            : "opacity-25"
+                        onClick={submit}
+                        disabled={!isButtonVisble}
+                        // className="mt-8 font-bah h-[50px] w-[100px] border-2 border-black text-black font-bold text-xs hover:text-white hover:border-0 hover:bg-blue p-3 rounded-lg transition-all"
+                        className={`w-32 mt-6 bg-blue border-2 border-blue  font-bold text-base hover:text-white hover:bg-blue p-3 rounded-lg text-white  transition-all ${
+                          isButtonVisble ? "opacity-100" : "opacity-50 "
                         }`}
                       >
                         SEND
                       </button>
                     )}
                   </div>
-                </form>
+                </div>
               </div>
             </div>
           </div>
@@ -225,7 +252,7 @@ export default function Contact() {
           height="650"
           allowFullScreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </section>
     </>
