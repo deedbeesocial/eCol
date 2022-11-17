@@ -25,7 +25,7 @@ export default function Contact() {
 
     try {
       const response = await fetch(
-        "",
+        "https://cwjycig2ndxjjdpq33lfbs4gpe0foftf.lambda-url.ap-south-1.on.aws/",
 
         {
           method: "POST",
