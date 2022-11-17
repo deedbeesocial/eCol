@@ -80,11 +80,11 @@ export default function Contact() {
                 <div className="p-4 lg:p-0 pl-6 mr-6 "></div>
               </div>
 
-              <div className=" md:w-fit w-full  lg:p-0 pl-6 mb-2 ">
+              <div className=" md:w-fit w-full  lg:p-0 md:pl-6 mb-2 ">
                 <p className="font-semibold md:mt-0 mt-5  pb-2 font-bah  text-black text-center md:text-center">
                   FIND US ON
                 </p>
-                <div className="md:mt-0 mt-5 ml-4 grid-cols-3 gap-10 flex justify-center   ">
+                <div className="md:mt-0 mt-5 md:ml-4 grid-cols-3 gap-10 flex justify-center   ">
                   <a
                     className="hover:scale-105 transition-all"
                     href=""

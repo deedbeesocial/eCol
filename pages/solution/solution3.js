@@ -57,7 +57,7 @@ function SolutionOne() {
           <div className="flex flex-col    lg:flex-row  justify-center  gap-20">
             <div className="flex   flex-col  rounded-3xl  justify-around h-[400px]   shadow-xl">
               <div className=" rounded-lg ">
-                <div className="w-[267px] flex flex-col justify-center p-5 h-[px]">
+                <div className="md:w-[267px] flex flex-col justify-center p-5 h-[px]">
                   <div className="w-full flex justify-center">
                     <div className="w-[70px] rounded-full  h-[70px]">
                       <img src="/icon/econo.png" alt="" />
@@ -81,7 +81,7 @@ function SolutionOne() {
 
             <div className="flex   flex-col  rounded-3xl  justify-around h-[400px]   shadow-xl">
               <div className=" rounded-lg ">
-                <div className="w-[267px] flex flex-col justify-center p-5 h-[px]">
+                <div className="md:w-[267px] flex flex-col justify-center p-5 h-[px]">
                   <div className="w-full flex justify-center">
                     <div className="w-[70px] rounded-full  h-[70px]">
                       <img src="/icon/eclo.png" alt="" />
@@ -102,7 +102,7 @@ function SolutionOne() {
             </div>
             <div className="flex   flex-col  rounded-3xl  justify-around h-[400px]   shadow-xl">
               <div className=" rounded-lg ">
-                <div className="w-[267px] flex flex-col justify-center p-5 h-[px]">
+                <div className="md:w-[267px] flex flex-col justify-center p-5 h-[px]">
                   <div className="w-full flex justify-center">
                     <div className="w-[70px] rounded-full  h-[70px]">
                       <img src="/icon/social.png" alt="" />

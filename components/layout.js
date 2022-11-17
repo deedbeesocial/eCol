@@ -41,28 +41,28 @@ export default function Layout({ children }) {
     {
       name: "Solutions",
       path: "/solution",
-      sub: [
-        // { name: "To Auditing Firms ", path: "/services#AuditingFirms" },
-        // {
-        //   name: "Practical Training & Development",
-        //   path: "/services#CharteredAccount",
-        // },
-        // { name: "To Corporates", path: "/services#Corporations" },
-        // { name: "To Regulators", path: "/services#Regulators" },
-      ],
+      // sub: [
+      //   // { name: "To Auditing Firms ", path: "/services#AuditingFirms" },
+      //   // {
+      //   //   name: "Practical Training & Development",
+      //   //   path: "/services#CharteredAccount",
+      //   // },
+      //   // { name: "To Corporates", path: "/services#Corporations" },
+      //   // { name: "To Regulators", path: "/services#Regulators" },
+      // ],
     },
     {
       name: "eCol Approach",
       path: "/approach",
-      sub: [
-        // { name: "To Auditing Firms ", path: "/services#AuditingFirms" },
-        // {
-        //   name: "Practical Training & Development",
-        //   path: "/services#CharteredAccount",
-        // },
-        // { name: "To Corporates", path: "/services#Corporations" },
-        // { name: "To Regulators", path: "/services#Regulators" },
-      ],
+      // sub: [
+      //   // { name: "To Auditing Firms ", path: "/services#AuditingFirms" },
+      //   // {
+      //   //   name: "Practical Training & Development",
+      //   //   path: "/services#CharteredAccount",
+      //   // },
+      //   // { name: "To Corporates", path: "/services#Corporations" },
+      //   // { name: "To Regulators", path: "/services#Regulators" },
+      // ],
     },
     {
       name: "How To Engage",
@@ -109,7 +109,7 @@ export default function Layout({ children }) {
       </Head>
       <div className="w-full     lg:h-[90px]">
         <header
-          className={`flex justify-center ${
+          className={`md:flex justify-center ${
             navbr
               ? "md:fixed   bg-white z-50 w-full ease-in font-bah   duration-700 border-zinc-100 border-b"
               : "w-full border-zinc-100 z-50 border-b font-bah   ease-in duration-700 "
@@ -118,7 +118,7 @@ export default function Layout({ children }) {
           <div className="lg: md:container md:mx-auto   flex justify-between  items-center text-zinc-900 font-sans">
             <Link href="/">
               <a className="flex  justify-between lg:justify-start items-center ">
-                <div className="w-full h-[90px]">
+                <div className="w-full h-[120px] md:h-[90px]">
                   <div className=" md:mt-1 mt-4 relative  w-fit  h-fit md:flex items-center flex-col">
                     <img
                       src="/ecollogo.png"
@@ -189,7 +189,7 @@ export default function Layout({ children }) {
                       <div
                         key={index}
                         tabIndex={1}
-                        className="w-40 group top-4 px-4 bg-white relative inline-flex p-2 normal-case text-sm whitespace-nowrap border-b border-t border-zinc-100 "
+                        className="w-52 group top-4 px-4 bg-white relative inline-flex p-2 normal-case text-sm whitespace-nowrap border-b border-t border-zinc-100 "
                       >
                         {sub ? (
                           name
@@ -288,7 +288,7 @@ export default function Layout({ children }) {
 
           <div className="text-sm flex flex-col font-bah text-black  pl-6 lg:p-0   text-center ">
             <Link href="/managed">
-              <a>Building Managed Better</a>
+              <a>Buildings Managed Better</a>
             </Link>
             <Link href="/about">
               <a>About Ecol</a>

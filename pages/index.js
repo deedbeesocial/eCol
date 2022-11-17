@@ -154,9 +154,9 @@ export default function Home() {
         //   backgroundRepeat: "no-repeat",
         // }}
       >
-        <div className=" md:container md:mx-auto    lg:rounded-lg text-left">
-          <div className="lg:w-full     my-16 flex flex-col lg:flex-col ">
-            <div className="mb-20  mt-24 flex justify-center    flex-col lg:flex-row">
+        <div className=" md:container md:mx-auto md:p-0 p-5   lg:rounded-lg text-left">
+          <div className="lg:w-full     md:my-16 flex flex-col lg:flex-col ">
+            <div className="md:mb-20 mt-8 mb-8 md:mt-24 flex justify-center    flex-col lg:flex-row">
               <div className="w-full lg:w-1/2">
                 <div className="w-full flex  lg:justify-center ">
                   <h1 className=" capitalize text-xl lg:text-3xl mb-10 text-black text-left ">
@@ -174,10 +174,10 @@ Without The RISK Of Your Investing`}
                   footprint.
                 </p>
               </div>
-              <div className="w-1/2 mb-13">
+              <div className="md:w-1/2 mb-13">
                 {" "}
-                <div className="  flex justify-center">
-                  <video controls width="" className="w-[642px] h-[362px]">
+                <div className="flex justify-center">
+                  <video controls width="" className="md:w-[642px] h-[362px]">
                     <source src="/video-example.webm" type="video/webm" />
                     <source src="/video/grass.mp4" type="video/mp4" />
                   </video>
@@ -198,13 +198,16 @@ Without The RISK Of Your Investing`}
       <IconPages />
 
       <section className=" md:container md:mx-auto flex flex-col justify-center">
-        <div className="w-full flex  lg:justify-center ">
-          <h1 className=" capitalize text-xl lg:text-3xl my-7 text-black text-left ">
+        <div className="w-full flex  justify-center ">
+          <h1 className=" capitalize text-xl lg:text-3xl my-7 text-black text-center lg:text-left ">
             {` A WHOLE NEW WORLD OF SOLUTIONS `}
           </h1>
         </div>
-        <div className="flex justify-center">
+        <div className="md:flex hidden justify-center">
           <img src="/solutions/solution.png" alt="" />
+        </div>
+        <div className="flex md:hidden justify-center">
+          <img src="/solutions/solutionmob.png" alt="" />
         </div>
       </section>
 
@@ -224,7 +227,16 @@ Without The RISK Of Your Investing`}
           <p className="text-3xl text-black text-center mt-14">
             How It Works For You
           </p>
-          <img src="/solutions/howitwork.png" alt="" />
+          <img
+            className="md:flex hidden"
+            src="/solutions/howitwork.png"
+            alt=""
+          />
+          <img
+            className="flex md:hidden"
+            src="/solutions/howitowrkmob.png"
+            alt=""
+          />
           <div className="flex justify-center mt-4 mb-20 ">
             <Link href={"/solution"}>
               <p className="text-blue hover:border-blue hover:border-2 p-2 font-bold bg-white border-blue border-2   ease-in duration-300 rounded-md  hover:bg-blue hover:text-white  flex justify-center items-center text-left hover:cursor-pointer">

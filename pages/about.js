@@ -131,7 +131,7 @@ function About() {
           </div>
         </div> */}
      
-      <div className="md:container  mx-auto">
+      <div className="md:container md:p-0 p-5  mx-auto">
         <div className="grid mb-14 lg:grid-cols-2 grid-cols-1 md:gap-x-20 gap-4 md:pt- pt-4">
           <div
             className="w-full block h-[10px] md:h-[0px] lg:col-span-2  col-span-1 "
@@ -141,7 +141,7 @@ function About() {
             <h2 className="text-3xl font-bah  title-font text-black   mb-4">
               Sustainability
             </h2>
-            <p className="prose text-justify text-black font-bah pt-8">
+            <p className="prose text-justify text-black font-bah pt-2">
               Sustainability is a business approach to creating long-term value
               by examining how you operate in the ecological, social and
               economic environment. <br /><br /> Developing such strategies offers long-term,
@@ -149,51 +149,11 @@ function About() {
               responsibility and transparency, companies now recognize the need
               to go sustainable and soften ecological footprint.
             </p>
-
-            {/* <p className="prose  font-bah lg:mb-0 mb-5 pt-8">
-              <Link href="/contact">
-                <a className="active:text-red underline   font-bah font-bold hover:text-orange decoration-blue text-blue">
-                  Get in touch
-                </a>
-              </Link>{" "}
-              to know more.
-            </p> */}
-          </div>
-
-          <div
-            data-aos="fade-up"
-            data-aos-once="true"
-            className="w-auto h-48 lg:h-[600px] md:mt-16 relative"
-          >
-            <Image
-              layout="fill"
-              className="absolute h-[800px] w-full object-cover"
-              alt=""
-              src="/down/carbon2.png"
-            />
-          </div>
-
-          <div
-            className="w-full font-bah block h-[10px] md:h-[50px] lg:col-span-2  col-span-1 "
-            id="CharteredAccount"
-          ></div>
-          <div
-            data-aos="fade-up"
-            data-aos-once="true"
-            className="w-auto h-48 mt-5 lg:h-[650px] relative"
-          >
-            <Image
-              layout="fill"
-              className="absolute h-full w-full object-cover"
-              alt=""
-              src="/down/whyecol.jpg"
-            />
-          </div>
-          <div data-aos="fade-up" data-aos-once="true" className="w-auto">
-            <h2 className="text-3xl font-bah  title-font text-black   mb-4">
+            <div data-aos="fade-up" data-aos-once="true" className="w-auto">
+            <h2 className="text-3xl font-bah  title-font text-black   mt-2">
               WHY eCol?
             </h2>
-            <p className="prose text-black text-justify font-bah pt-8">
+            <p className="prose text-black text-justify font-bah mt-5">
               At eCol we believe that we need to find ways to meet our current
               consumption needs without jeopardizing the future. Business
               growth, profitability and sustainability cannot exist in
@@ -202,7 +162,7 @@ function About() {
                 We want to help create a profitable green future.
               </span>
             </p>
-            <p className="prose text-black text-justify font-bah pt-8">
+            <p className="prose text-black text-justify font-bah mt-4">
               {`
           eCol brings innovative Green Financing solutions for building
           infrastructure. Off-balance sheet mechanisms which own a range of
@@ -227,6 +187,32 @@ function About() {
               to know more.
             </p> */}
           </div>
+
+            {/* <p className="prose  font-bah lg:mb-0 mb-5 pt-8">
+              <Link href="/contact">
+                <a className="active:text-red underline   font-bah font-bold hover:text-orange decoration-blue text-blue">
+                  Get in touch
+                </a>
+              </Link>{" "}
+              to know more.
+            </p> */}
+          </div>
+
+          <div
+            data-aos="fade-up"
+            data-aos-once="true"
+            className="w-auto h-48 lg:h-[600px] md:mt-16 relative"
+          >
+            <Image
+              layout="fill"
+              className="absolute h-[800px] w-full object-cover"
+              alt=""
+              src="/down/carbon2.png"
+            />
+          </div>
+
+          
+         
         </div>
       </div>
 

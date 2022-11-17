@@ -5,12 +5,12 @@ function Projectscard() {
   return (
     <>
       <section className="text-black md:container md:mx-auto  relative ">
-        <div className="   mt-10  pb-10 ">
+        <div className="   mt-10  md:pb-10 ">
           <h1 className=" capitalize text-xl lg:text-4xl  my-16 text-black text-center ">
             {` Boost Your Building's Bottom Lines`}
           </h1>
 
-          <div className="grid grid-cols-1 md:grid-cols-4  mb-4    justify-center md:gap-11 lg:gap-24 ">
+          <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 mb-4 gap-10 p-10  md:p-0 justify-center md:gap-11 lg:gap- ">
             <div className="flex  top-0 flex-col bg-blue  rounded-3xl  justify-around h-[350px]   shadow-xl">
               <div className=" rounded-lg ">
                 <div className="w-fit p-5 h-[274px]">
@@ -25,7 +25,7 @@ function Projectscard() {
               </div>
             </div>
 
-            <div className=" rounded-3xl  flex flex-col bg-[#00f2c2]  justify-around h-[350px]   shadow-xl">
+            <div className=" rounded-3xl  flex flex-col bg-[#00f2c2]  justify-around  h-[350px]   shadow-xl">
               <div className=" rounded-lg ">
                 <div className="  p-5 h-[274px]">
                   <p className="text-xl text-center font-semibold mt-4">
@@ -55,7 +55,7 @@ function Projectscard() {
 
             <div className="rounded-3xl  flex flex-col bg-[#00f2c2]  justify-around h-[350px]   shadow-xl">
               <div className=" rounded-lg ">
-                <div className="  p-5 h-[290px]">
+                <div className="  p-1 h-[290px]">
                   <p className="text-xl text-center font-semibold mt-4">
                     eCol Your Building to be a Prosumer
                   </p>
