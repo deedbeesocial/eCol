@@ -123,7 +123,7 @@ export default function Layout({ children }) {
                     <img
                       src="/alt.png"
                       alt="logo"
-                      className="md:w-[178px] object-contain  w-[177px] h-[82px] md:h-[82px]"
+                      className="md:w-[178px] object-contain  w-[151px] h-[82px] md:h-[70px]"
                     />
                   </div>
                 </div>
@@ -247,7 +247,7 @@ export default function Layout({ children }) {
                   <img
                     src="/alt.png"
                     alt="logo"
-                    className="w-[177px] object-cover h-[82px]"
+                    className="w-[151px] object-cover h-[70px]"
                   />
                 </div>
                 <div className="pl-2 flex flex-col justify-center">
