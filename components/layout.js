@@ -121,9 +121,9 @@ export default function Layout({ children }) {
                 <div className="w-full h-[120px] md:h-[90px]">
                   <div className=" md:mt-1 mt-4 relative  w-fit  h-fit md:flex items-center flex-col">
                     <img
-                      src="/ecollogo.png"
+                      src="/alt.png"
                       alt="logo"
-                      className="md:w-[153px] object-contain  w-[153px] h-[82px] md:h-[82px]"
+                      className="md:w-[159px] object-contain  w-[153px] h-[82px] md:h-[82px]"
                     />
                   </div>
                 </div>
@@ -245,9 +245,9 @@ export default function Layout({ children }) {
               <a className="flex flex-col justify-start items-center pl-6 lg:pl-0">
                 <div className=" bg-white">
                   <img
-                    src="/ecollogo.png"
+                    src="/alt.png"
                     alt="logo"
-                    className="w-[153px] object-cover h-[82px]"
+                    className="w-[159px] object-cover h-[82px]"
                   />
                 </div>
                 <div className="pl-2 flex flex-col justify-center">
