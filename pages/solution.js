@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Solution() {
   const items = [
     {
-      name: "ecol your shopping mall and see the saving you make",
+      name: "Alttech your shopping mall and see the saving you make",
       link: "/solution/solution1",
       image: "/so/so1.jpg",
       text: "",
@@ -41,7 +41,7 @@ export default function Solution() {
       image: "/so/so6.jpg",
       text: "",
     },
-   
+
     {
       name: "Revamps your central AC and clip a chunk",
       link: "/solution/solution8",
@@ -94,16 +94,12 @@ export default function Solution() {
         </div>
       </section> */}
 
-
-
-<section className="md:pt-14 md:pb-10 text-zinc-90 bg-lightgray">
+      <section className="md:pt-14 md:pb-10 text-zinc-90 bg-lightgray">
         <div className="lg:container p-4 mx-auto">
           <div className="flex gap-4 justify-center mb-10">
-           
             <h1 className="text-3xl  capitalize lg:text-4xl text-black  text-center">
-            Solutions
+              Solutions
             </h1>
-           
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-12 gap-4 pt-4 lg:pt-8">
             {items.map(({ name, name2, image, id, link }) => (
@@ -121,7 +117,7 @@ export default function Solution() {
 
                     <div className="flex items-center justify-between z-40 w-full p-4 mb-10 ">
                       <h1 className="text-4xl tracking-wide drop-shadow-md   text-white z-10 w-full">
-                        {name} 
+                        {name}
                       </h1>
                       {rightIcon}
                     </div>

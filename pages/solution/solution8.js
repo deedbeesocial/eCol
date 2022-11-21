@@ -20,7 +20,7 @@ function SolutionEight() {
               className="h-[90px] w-3/4 flex justify-center   items-center font-bah text-2xl text-white "
             >
               <p className="text-3xl font-bah  title-font text-white ">
-              Re-engineering Centrally Air-Conditioned Buildings.
+                Re-engineering Centrally Air-Conditioned Buildings.
               </p>
             </div>
           </div>
@@ -30,14 +30,16 @@ function SolutionEight() {
             The Problem
           </h1>
           <p className="text-center p-4 my-5">
-          A central AC in your building claims nearly 60 percent of your energy bill.
+            A central AC in your building claims nearly 60 percent of your
+            energy bill.
           </p>
           <h1 className="text-3xl text-center  my-5 text-black capitalize lg:text-4xl ">
             Solution Arrays
           </h1>
           <div className="w-full bg-slate-800  grid grid-cols-1 justify-center h-fit">
             <p className="text-white p-4 text-center border">
-            From equipment side to low side, smart tweaks can drop energy bills by 15-30 percent as eCol has proven often. 
+              From equipment side to low side, smart tweaks can drop energy
+              bills by 15-30 percent as Alttech has proven often.
             </p>
             {/* <p className="text-white p-4 text-center border">
               Treat STP output water to Health Grade
@@ -83,9 +85,10 @@ function SolutionEight() {
                       <img src="/icon/eclo.png" alt="" />
                     </div>
                   </div>
-                  <p className="text-center">Ecological</p>
+                  <p className="text-center">Alttech ogical</p>
                   <p className="text-black text-justify h-fit   mt-4 ">
-                    ✅ Lesser use of electricity reducing the environment cost of generating electricity
+                    ✅ Lesser use of electricity reducing the environment cost
+                    of generating electricity
                   </p>
                   <p
                     className="text-black text-justify  h-fit text-center 

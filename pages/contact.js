@@ -68,14 +68,14 @@ export default function Contact() {
 
           <div className="flex flex-col-reverse md:flex-row justify-center items-start rounded pt-8 ">
             <div className="md:w-2/5 md:mt-0 mt-10 w-full">
-              <p className="text-2xl font-semibold  md:ml-4">eCol</p>
+              <p className="text-2xl font-semibold  md:ml-4">Alttech </p>
               <div className="grid gap-10 grid-cols ">
                 <div className="text-base pt-8 text-black md:ml-4">
-                  <p>BCIL AltTech Foundation 252, , 2nd Main, 5th Cross,</p>
+                  <p> Alttech Consortium, 252, 2nd Main, 5th Cross,</p>
                   <p>RMV II Stage, Bengaluru KARNATAKA 560094</p>
 
-                  <p>Tel : +9148483490</p>
-                  <p>E-Mail ID: altech555@gmail.com</p>
+                  {/* <p>Tel : +9148483490</p> */}
+                  <p>E-Mail ID: Pallavi@AltTech.Foundation</p>
                 </div>
                 <div className="p-4 lg:p-0 pl-6 mr-6 "></div>
               </div>
@@ -85,6 +85,15 @@ export default function Contact() {
                   FIND US ON
                 </p>
                 <div className="md:mt-0 mt-5 md:ml-4 grid-cols-3 gap-10 flex justify-center   ">
+                  
+                <a
+                    className="hover:scale-105 transition-all"
+                    href="https://www.facebook.com/profile.php?id=100087965530818"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src="/icons/facebook.gif" className="w-8 h-8" alt="" />
+                  </a>
                   <a
                     className="hover:scale-105 transition-all"
                     href=""

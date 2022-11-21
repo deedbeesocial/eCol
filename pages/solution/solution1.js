@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-function Blogone() {
+function Solutionone() {
   return (
     <>
       <section className="bg-whit">
@@ -85,7 +85,7 @@ function Blogone() {
                       <img src="/icon/eclo.png" alt="" />
                     </div>
                   </div>
-                  <p className="text-center">Ecological</p>
+                  <p className="text-center">Alttech ogical</p>
                   <p className="text-black text-justify h-fit   mt-4 ">
                     ✅ Drops exploitation of ground water aquifers
                   </p>
@@ -116,7 +116,6 @@ function Blogone() {
                   <p className="text-black text-justify h-fit   mt-4 ">
                     ✅ Greater water security and healthy water access
                   </p>
-                 
                 </div>
               </div>
             </div>
@@ -126,4 +125,4 @@ function Blogone() {
     </>
   );
 }
-export default Blogone;
+export default Solutionone;

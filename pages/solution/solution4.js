@@ -82,7 +82,7 @@ function SolutionFour() {
                       <img src="/icon/eclo.png" alt="" />
                     </div>
                   </div>
-                  <p className="text-center">Ecological</p>
+                  <p className="text-center">Alttech ogical</p>
                   <p className="text-black text-justify h-fit   mt-4 ">
                     ✅ Decrease usage of ground water from aquifers
                   </p>

@@ -37,9 +37,9 @@ function SolutionSix() {
           </h1>
           <div className="w-full bg-slate-800  grid grid-cols-1 justify-center h-fit">
             <p className="text-white p-4 text-center border">
-              eCol can think up a combo of hard- and soft-cabling that gets your
-              assets to talk to your officers, to divine data, to discern, to
-              decide.
+              Alttech can think up a combo of hard- and soft-cabling that gets
+              your assets to talk to your officers, to divine data, to discern,
+              to decide.
             </p>
             {/* <p className="text-white p-4 text-center border">
               Treat STP output water to Health Grade
@@ -83,7 +83,7 @@ function SolutionSix() {
                       <img src="/icon/eclo.png" alt="" />
                     </div>
                   </div>
-                  <p className="text-center">Ecological</p>
+                  <p className="text-center">Alttech ogical</p>
                   <p className="text-black text-justify h-fit   mt-4 ">
                     ✅ Enhanced security of Water/ Energy
                   </p>

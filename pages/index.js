@@ -97,8 +97,8 @@ export default function Home() {
               options={{
                 strings: [
                   "Do Good. Do Well.",
-                  // "Improve audit quality and productivity through our robust standards and best practices",
-                  // "Explore technical resources, case studies, connect with experts and get auditing insights",
+                  "Accelerate sales with smart solutions for your clients.",
+                  "Keep your business simple. Make the planet sacred.",
                   // "Connect, learn, collaborate with the auditing ecosystem and deliver world-class services",
                 ],
                 autoStart: true,
@@ -159,19 +159,19 @@ export default function Home() {
             <div className="md:mb-20 mt-8 mb-8 md:mt-24 flex justify-center    flex-col lg:flex-row">
               <div className="w-full lg:w-1/2">
                 <div className="w-full flex  lg:justify-center ">
-                  <h1 className=" capitalize text-xl lg:text-3xl mb-10 text-black text-left ">
-                    {`  Getting A Hold Of Essential Sustainability
-Without The RISK Of Your Investing`}
+                  <h1 className="  text-xl lg:text-3xl mb-10 text-black text-left ">
+                    {`  Getting a hold of essential sustainability
+without the risk of your investing`}
                   </h1>
                 </div>
                 <p className=" text-justify   text- text-black leading-loose">
                   Sustainability is a business approach to creating long-term
-                  value by examining how you operate in the ecological, social
-                  and economic environment. Developing such strategies offers
-                  long-term, competitive advantage. With the need for greater
-                  corporate responsibility and transparency, companies now
-                  recognize the need to go sustainable and soften ecological
-                  footprint.
+                  value by examining how you operate in the Alttech ogical,
+                  social and economic environment. Developing such strategies
+                  offers long-term, competitive advantage. With the need for
+                  greater corporate responsibility and transparency, companies
+                  now recognize the need to go sustainable and soften Alttech
+                  ogical footprint.
                 </p>
               </div>
               <div className="md:w-1/2 mb-13">
@@ -200,7 +200,7 @@ Without The RISK Of Your Investing`}
       <section className=" md:container md:mx-auto flex flex-col justify-center">
         <div className="w-full flex  justify-center ">
           <h1 className=" capitalize text-xl lg:text-3xl my-7 text-black text-center lg:text-left ">
-            {` A WHOLE NEW WORLD OF SOLUTIONS `}
+            {` A whole New World Of Solutions `}
           </h1>
         </div>
         <div className="md:flex hidden justify-center">
@@ -249,7 +249,7 @@ Without The RISK Of Your Investing`}
       {/* <section className="p-4 md:container flex justify-center md:mx-auto">
         <div className="flex flex-col  mb-6 w-[1200px] border  rounded-r-full bg-[#20303c] rounded-l-full">
           <p className="text-center text-3xl text-white my-4">
-            How can you engage with eCol?{" "}
+            How can you engage with Alttech ?{" "}
           </p>
           <div className="flex justify-center mt-4 mb-8 ">
             <Link href={""}>
@@ -272,7 +272,7 @@ Without The RISK Of Your Investing`}
         <div className="md:container mb- md:mx-auto">
           <div className="w-full flex  lg:justify-center ">
             <h1 className=" capitalize text-xl lg:text-3xl my-10 text-white text-left ">
-              {` WHAT YOU GET `}
+              {` What You Get `}
             </h1>
           </div>
           <div className="grid    items-center grid-cols-1 md:grid-cols-3">

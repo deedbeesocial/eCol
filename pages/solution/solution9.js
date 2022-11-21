@@ -88,7 +88,7 @@ function SolutionNine() {
                       <img src="/icon/eclo.png" alt="" />
                     </div>
                   </div>
-                  <p className="text-center">Ecological</p>
+                  <p className="text-center">Alttech ogical</p>
                   <p className="text-black text-justify h-fit   mt-4 ">
                     ✅ Lesser use of electricity reducing the environment cost
                     of generating electricity

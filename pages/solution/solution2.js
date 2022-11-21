@@ -82,12 +82,11 @@ function SolutionOne() {
                       <img src="/icon/eclo.png" alt="" />
                     </div>
                   </div>
-                  <p className="text-center">Ecological</p>
+                  <p className="text-center">Alttech ogical</p>
                   <p className="text-black text-justify h-fit   mt-4 ">
                     ✅ Decrease use of fossil fuels such as LPG and
                     transportation energy costs
                   </p>
-                  
                 </div>
               </div>
             </div>
@@ -104,7 +103,6 @@ function SolutionOne() {
                     ✅ 30% + Savings a year on operations cost of feeding water
                     to the chiller plant (Pay as you go Model available)
                   </p>
-                 
                 </div>
               </div>
             </div>

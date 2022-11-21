@@ -12,6 +12,15 @@ export default function Fixediv({ clicked }) {
             <p className="text-center cursor-pointer font-extrabold">x</p>
           </div>
           <a
+          
+                    className="mx-1.5 text-black transition-colors duration-300 transform hover:text-blue-500"
+                    href="https://www.facebook.com/profile.php?id=100087965530818"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src="/icons/facebook.gif" className="w-8 h-8" alt="" />
+                  </a>
+          <a
             className="mx-1.5 text-black transition-colors duration-300 transform hover:text-blue-500"
             href=""
             rel="noopener noreferrer"
