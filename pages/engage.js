@@ -57,9 +57,8 @@ export default function Engage() {
             <Item title="What are buildings that qualify for  AltTech Solutions??">
               Buildings with high energy or water use is strongly urged to fill
               the Data Form. Your application will be followed by an NDA between
-              your Company and AltTech India. If you are an SME, we will sign
-              the NDA including your and your MSME cluster’s stakeholders
-              name(s).
+              your Company and AltTech. If you are an SME, we will sign the NDA
+              including your and your MSME cluster’s stakeholders name(s).
             </Item>
             <Item title="What happens after this?">
               Once the NDA is signed, we arrange a pre-investment meeting with
@@ -69,19 +68,19 @@ export default function Engage() {
             </Item>
             <Item title="What are the key areas we need to focus before applying?">
               AltTech is an ideas accelerator to bring efficiency in resource
-              use in your company. AltTech India has a funding mechanism to
-              support potential for such resource efficiency on water, energy,
-              waste, air management or other areas of process manufacture on
-              operations in your company. AltTech , upon evaluation, brings in
-              ideas and solutions on smart clean technologies either for
-              reduction in use of resources or for local generation of energy or
-              water or for waste management. AltTech will bring in integrated
-              A.I. and/or smart technologies where applicable to enhance the
-              effectiveness of solutions.
+              use in your company. AltTech has a funding mechanism to support
+              potential for such resource efficiency on water, energy, waste,
+              air management or other areas of process manufacture on operations
+              in your company. AltTech , upon evaluation, brings in ideas and
+              solutions on smart clean technologies either for reduction in use
+              of resources or for local generation of energy or water or for
+              waste management. AltTech will bring in integrated A.I. and/or
+              smart technologies where applicable to enhance the effectiveness
+              of solutions.
             </Item>
             <Item title="What type of support does the building owner-company receive?">
-              AltTech India, with its battery of green leaders and experts,
-              provides immeasurable and priceless support in terms of:
+              AltTech, with its battery of green leaders and experts, provides
+              immeasurable and priceless support in terms of:
               <ul>
                 <li>
                   <br />- Mentoring in operations and business process on
