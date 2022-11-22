@@ -166,12 +166,12 @@ without the risk of your investing`}
                 </div>
                 <p className=" text-justify   text- text-black leading-loose">
                   Sustainability is a business approach to creating long-term
-                  value by examining how you operate in the Alttech ogical,
+                  value by examining how you operate in the AltTech ecological,
                   social and economic environment. Developing such strategies
                   offers long-term, competitive advantage. With the need for
                   greater corporate responsibility and transparency, companies
-                  now recognize the need to go sustainable and soften Alttech
-                  ogical footprint.
+                  now recognize the need to go sustainable and soften AltTech
+                  ecological footprint.
                 </p>
               </div>
               <div className="md:w-1/2 mb-13">
@@ -249,7 +249,7 @@ without the risk of your investing`}
       {/* <section className="p-4 md:container flex justify-center md:mx-auto">
         <div className="flex flex-col  mb-6 w-[1200px] border  rounded-r-full bg-[#20303c] rounded-l-full">
           <p className="text-center text-3xl text-white my-4">
-            How can you engage with Alttech ?{" "}
+            How can you engage with  AltTech ?{" "}
           </p>
           <div className="flex justify-center mt-4 mb-8 ">
             <Link href={""}>

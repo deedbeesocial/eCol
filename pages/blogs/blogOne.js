@@ -155,7 +155,7 @@ function Blogone() {
             Like what you read? Engage by mailing{" "}
             <span className="font-semibold font-bah">
               {" "}
-              pallavi@alttech.foundation
+              pallavi@ AltTech.foundation
             </span>
           </p>
         </div>

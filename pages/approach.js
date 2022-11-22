@@ -9,7 +9,7 @@ export default function Approach() {
         <div className="flex flex-col justify-center">
           <div className="flex justify-center my-5">
             <p className="text-center p-5">
-              Alttech synthesises solutions based on your unique needs. We
+              AltTech synthesises solutions based on your unique needs. We
               marshal a host of solutions to integrate <br /> a comprehensive
               saving-and-sustainability plan for you.
             </p>
@@ -17,21 +17,21 @@ export default function Approach() {
 
           <div className="relative flex justify-center">
             <p className="absolute text-3xl text-black text-center mt-4">
-              THE Alttech APPROACH
+              THE AltTech APPROACH
             </p>
             <img className="md:flex hidden" src="/appro/1.jpg" alt="" />
             <img className="md:hidden " src="/appro/1mob.jpg" alt="" />
           </div>
           <div className="flex justify-center my-5 ">
             <p className="text-center">
-              Alttech doesn’t stop at solution delivery. The post deployment
+              AltTech doesn’t stop at solution delivery. The post deployment
               process is as important. And it ensures <br /> you get maximum IRR
               on your green spend.{" "}
             </p>
           </div>
           <div className="relative flex justify-center">
             <p className="absolute text-3xl text-black text-center mt-1 md:mt-4">
-              The Alttech WAY
+              The AltTech WAY
             </p>
 
             <img className="md:flex hidden" src="/appro/2.jpg" alt="" />
@@ -39,12 +39,12 @@ export default function Approach() {
           </div>
           <div className="flex justify-center my-5 md:mb-0 mb-20">
             <p className="text-center">
-              {`Alttech 's approach to various sustainability streams is exhaustive and customised to be able to give maximum returns.`}
+              {` AltTech 's approach to various sustainability streams is exhaustive and customised to be able to give maximum returns.`}
             </p>
           </div>
           <div className="relative flex justify-center">
             <p className="absolute  md:flex hidden text-3xl text-black text-center mt-4">
-              The Alttech WAY
+              The AltTech WAY
             </p>
             <p className="absolute md:hidden  text-3xl text-black text-left  mt-[-40px] ml-0 ">
               Energy
@@ -60,7 +60,7 @@ export default function Approach() {
           </div>
           <div className="relative flex justify-center">
             <p className="absolute  md:flex hidden text-3xl text-black text-center mt-4">
-              The Alttech WAY
+              The AltTech WAY
             </p>
             <p className="absolute md:hidden  text-3xl text-black text-left  mt-[-40px] ml-0 ">
               Water
@@ -76,7 +76,7 @@ export default function Approach() {
           </div>
           <div className="relative flex justify-center">
             <p className="absolute  md:flex hidden text-3xl text-black text-center mt-4">
-              The Alttech WAY
+              The AltTech WAY
             </p>
             <p className="absolute md:hidden  text-3xl text-black text-left  mt-[-40px] ml-0 ">
               Waste
@@ -92,7 +92,7 @@ export default function Approach() {
           </div>
           <div className="relative flex justify-center">
             <p className="absolute  md:flex hidden text-3xl text-black text-center mt-4">
-              The Alttech WAY
+              The AltTech WAY
             </p>
             <p className="absolute md:hidden  text-3xl text-black text-left  mt-[-40px] ml-0 ">
               Air

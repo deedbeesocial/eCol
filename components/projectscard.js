@@ -18,7 +18,7 @@ function Projectscard() {
                     Saving is your earning
                   </p>
                   <p className=" text-center text-white  mt-4 ">
-                    Alttech translates proof points on the cutting edge of
+                    AltTech translates proof points on the cutting edge of
                     resource efficiency. Post Covid, it is even more relevant.
                   </p>
                 </div>
@@ -32,7 +32,7 @@ function Projectscard() {
                     Go eco, profitably
                   </p>
                   <p className="text-black text-center   mt-4 ">
-                    Alttech helps your company move to a proactive, tech-driven
+                    AltTech helps your company move to a proactive, tech-driven
                     model with high investment payback
                   </p>
                 </div>
@@ -57,10 +57,10 @@ function Projectscard() {
               <div className=" rounded-lg ">
                 <div className="  p-1 h-[290px]">
                   <p className="text-xl text-center font-semibold mt-4">
-                    Alttech your building to be a Prosumer
+                    AltTech your building to be a Prosumer
                   </p>
                   <p className="text-black text-center  mt-4 ">
-                    Decentralise is the key to solutions for buildings. Alttech
+                    Decentralise is the key to solutions for buildings. AltTech
                     forges with you a deep trusteeship by making your company a
                     prosumer: you produce, you consume water & energy.
                   </p>

@@ -18,8 +18,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Head>
-        <title>Alttech </title>
-        <meta name="description" content="Official website for Alttech " />
+        <title> AltTech </title>
+        <meta name="description" content="Official website for  AltTech " />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />

@@ -85,7 +85,7 @@ function Solutionone() {
                       <img src="/icon/eclo.png" alt="" />
                     </div>
                   </div>
-                  <p className="text-center">Alttech ogical</p>
+                  <p className="text-center"> AltTech ogical</p>
                   <p className="text-black text-justify h-fit   mt-4 ">
                     ✅ Drops exploitation of ground water aquifers
                   </p>

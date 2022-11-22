@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Solution() {
   const items = [
     {
-      name: "Alttech your shopping mall and see the saving you make",
+      name: " AltTech your shopping mall and see the saving you make",
       link: "/solution/solution1",
       image: "/so/so1.jpg",
       text: "",

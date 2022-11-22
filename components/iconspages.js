@@ -8,7 +8,7 @@ function IconPages() {
         <div className=" mt-10  container mx-auto  pb-10 ">
           <div className="w-full md:flex  lg:justify-center ">
             <h1 className=" capitalize text-xl lg:text-4xl  my-8 text-black text-center ">
-              Alttech Approach
+              AltTech Approach
             </h1>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 md:p-0 p-5  justify-center gap-10 md:gap-11 lg:gap-24">

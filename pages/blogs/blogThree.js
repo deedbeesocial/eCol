@@ -56,7 +56,6 @@ function BlogThree() {
             from rivers and coal and uranium for energy and they put out
             mountains of waste into our oceans.
           </p>
-         
           <p className="prose text-black font-semibold text-justify font-bah mt-5">
             Our Cities Will Die
           </p>
@@ -307,7 +306,7 @@ function BlogThree() {
             Like what you read? Engage by mailing{" "}
             <span className="font-semibold font-bah">
               {" "}
-              pallavi@alttech.foundation
+              pallavi@ AltTech.foundation
             </span>
           </p>
         </div>

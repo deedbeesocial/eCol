@@ -7,7 +7,7 @@ function About() {
       image: "/about/chandra.png",
       role: "",
       description:
-        "Dr. Hariharan is an environmental economist, entrepreneur, sustainability professional, mentor, writer, policy advocate and urban analyst. He is founder of BCIL AltTech Foundation, a non-government, not-for-profit, industry-led and industry-managed Trust. Its mission objective and his work over thirty years has focused on zero energy development strategies for buildings with freedom from the grid for energy, water and waste.",
+        "Dr. Hariharan is an environmental economist, entrepreneur, sustainability professional, mentor, writer, policy advocate and urban analyst. He is founder of BCIL  AltTech Foundation, a non-government, not-for-profit, industry-led and industry-managed Trust. Its mission objective and his work over thirty years has focused on zero energy development strategies for buildings with freedom from the grid for energy, water and waste.",
     },
     {
       name: "U V Krishna Mohan Rao",
@@ -21,7 +21,7 @@ function About() {
       image: "/about/palvi.jpg",
       role: "",
       description:
-        "Pallavi Singh is an Urban and Regional Planner, and Research Associate at AltTech.Foundation. She has worked on socio-economic and development aspects of urban development and governance for cities like Usilampatti in TN, Bhopal and Jabalpur in MP. She has been city representative for a project under Climate Action Framework for Smart cities  for Rourkela in Odisha. She has written a chapter for a book titled “Advances in Urbanism, Smart Cities and Sustainability” to be published by Taylor and Francis group/CRC Press.",
+        "Pallavi Singh is an Urban and Regional Planner, and Research Associate at  AltTech.Foundation. She has worked on socio-economic and development aspects of urban development and governance for cities like Usilampatti in TN, Bhopal and Jabalpur in MP. She has been city representative for a project under Climate Action Framework for Smart cities  for Rourkela in Odisha. She has written a chapter for a book titled “Advances in Urbanism, Smart Cities and Sustainability” to be published by Taylor and Francis group/CRC Press.",
     },
   ];
 
@@ -55,11 +55,11 @@ function About() {
             </h1>
             <p className="prose text-justify pt-8 p-5">
               Sustainability is a business approach to creating long-term value
-              by examining how you operate in the Alttech ogical, social and
+              by examining how you operate in the  AltTech ogical, social and
               economic environment. Developing such strategies offers long-term,
               competitive advantage. With the need for greater corporate
               responsibility and transparency, companies now recognize the need
-              to go sustainable and soften Alttech ogical footprint.
+              to go sustainable and soften  AltTech ogical footprint.
             </p>
           </div>
 
@@ -86,12 +86,12 @@ function About() {
 
       <section className=" lg:container mx-auto   text-black">
         <h1 className="text-4xl tracking-wide mb-10 text-center  text-black">
-          WHY Alttech ?
+          WHY  AltTech ?
         </h1>
         <div className="flex gap-32 justify-center  flex-row">
           <div className="w-1/2">
             <p className=" prose text-justify pt-8 p-2">
-              At Alttech we believe that we need to find ways to meet our current
+              At  AltTech we believe that we need to find ways to meet our current
               consumption needs without jeopardizing the future. Business
               growth, profitability and sustainability cannot exist in
               isolation.{" "}
@@ -102,13 +102,13 @@ function About() {
 
             <p className="text-black text-justify  p-2 ">
               {`
-          Alttech brings innovative Green Financing solutions for building
+           AltTech brings innovative Green Financing solutions for building
           infrastructure. Off-balance sheet mechanisms which own a range of
           applicable equipment configured in such a way as to reduce the
-          operations cost of buildings. Alttech brings professional analyses of
+          operations cost of buildings.  AltTech brings professional analyses of
           properties, designs for water and energy efficient solutions, installs
           infrastructure elements, and maintains systems to ensure energy
-          savings with defined payback period. ​ Alttech Solutions synthesizes
+          savings with defined payback period. ​  AltTech Solutions synthesizes
           low-carbon strategies for buildings and built environments. We provide
           a wide array of solutions with wholesome approaches to design and
           implementation. If yours is an old building, all the more reason for
@@ -139,23 +139,23 @@ function About() {
           ></div>
           <div className="w-auto mt-16">
             <h2 className="text-3xl font-bah  title-font text-black   mb-4">
-              Sustainability
+            We help you Grow your Business and your Green Footprint
             </h2>
             <p className="prose text-justify text-black font-bah pt-2">
               Sustainability is a business approach to creating long-term value
-              by examining how you operate in the Alttech ogical, social and
+              by examining how you operate in the AltTech ecological, social and
               economic environment. <br />
               <br /> Developing such strategies offers long-term, competitive
               advantage. With the need for greater corporate responsibility and
               transparency, companies now recognize the need to go sustainable
-              and soften Alttech ogical footprint.
+              and soften AltTech ecological footprint.
             </p>
             <div data-aos="fade-up" data-aos-once="true" className="w-auto">
               <h2 className="text-3xl font-bah   title-font text-black   mt-8">
-                Why Alttech ?
+                Why AltTech ?
               </h2>
               <p className="prose text-black text-justify font-bah mt-5">
-                At Alttech we believe that we need to find ways to meet our
+                At AltTech we believe that we need to find ways to meet our
                 current consumption needs without jeopardizing the future.
                 Business growth, profitability and sustainability cannot exist
                 in isolation.{" "}
@@ -165,13 +165,13 @@ function About() {
               </p>
               <p className="prose text-black text-justify font-bah mt-4">
                 {`
-          Alttech brings innovative Green Financing solutions for building
+           AltTech brings innovative Green Financing solutions for building
           infrastructure. Off-balance sheet mechanisms which own a range of
           applicable equipment configured in such a way as to reduce the
-          operations cost of buildings. Alttech brings professional analyses of
+          operations cost of buildings.  AltTech brings professional analyses of
           properties, designs for water and energy efficient solutions, installs
           infrastructure elements, and maintains systems to ensure energy
-          savings with defined payback period. ​ Alttech Solutions synthesizes
+          savings with defined payback period. ​  AltTech Solutions synthesizes
           low-carbon strategies for buildings and built environments. We provide
           a wide array of solutions with wholesome approaches to design and
           implementation. If yours is an old building, all the more reason for

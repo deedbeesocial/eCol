@@ -39,7 +39,7 @@ function SolutionEight() {
           <div className="w-full bg-slate-800  grid grid-cols-1 justify-center h-fit">
             <p className="text-white p-4 text-center border">
               From equipment side to low side, smart tweaks can drop energy
-              bills by 15-30 percent as Alttech has proven often.
+              bills by 15-30 percent as AltTech has proven often.
             </p>
             {/* <p className="text-white p-4 text-center border">
               Treat STP output water to Health Grade
@@ -85,7 +85,7 @@ function SolutionEight() {
                       <img src="/icon/eclo.png" alt="" />
                     </div>
                   </div>
-                  <p className="text-center">Alttech ogical</p>
+                  <p className="text-center"> AltTech ogical</p>
                   <p className="text-black text-justify h-fit   mt-4 ">
                     ✅ Lesser use of electricity reducing the environment cost
                     of generating electricity

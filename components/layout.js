@@ -29,11 +29,11 @@ export default function Layout({ children }) {
       path: "/managed",
     },
     {
-      name: "About Alttech ",
+      name: "About  AltTech ",
       path: "/about",
       // sub: [
       //   { name: "Sustainability", path: "/about#abttf" },
-      //   { name: " WHY Alttech ?", path: "/about#focusarea" },
+      //   { name: " WHY  AltTech ?", path: "/about#focusarea" },
       //   { name: "Meet the Team", path: "/about#meettheteam" },
       // ],
     },
@@ -52,7 +52,7 @@ export default function Layout({ children }) {
       // ],
     },
     {
-      name: "Alttech Approach",
+      name: " AltTech Approach",
       path: "/approach",
       // sub: [
       //   // { name: "To Auditing Firms ", path: "/services#AuditingFirms" },
@@ -91,7 +91,7 @@ export default function Layout({ children }) {
     //   path: "/team",
     //   sub: [
     //     { name: "Films By the Minute", path: "" },
-    //     { name: " Alttech late", path: "" },
+    //     { name: "  AltTech late", path: "" },
     //     { name: "News", path: "/resources#News" },
     //   ],
     // },
@@ -105,7 +105,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>{`Alttech `}</title>
+        <title>{` AltTech `}</title>
       </Head>
       <div className="w-full     lg:h-[90px]">
         <header
@@ -262,7 +262,7 @@ export default function Layout({ children }) {
           <div className="text-sm p-4 lg:p-0 pl-6 text-black font-bah text-left">
             <p className="font-semibold">Office</p>
 
-            <p> Alttech Consortium, 252, 2nd Main, 5th Cross, </p>
+            <p> AltTech Consortium, 252, 2nd Main, 5th Cross, </p>
             <p>RMV II Stage, Bengaluru KARNATAKA 560094</p>
 
             <p></p>
@@ -283,7 +283,7 @@ export default function Layout({ children }) {
           <div className="text-sm lg:p-0 font-bah  p-4 text-black text-center">
             <p className="font-semibold">CONTACT</p>
 
-            <p className="">Pallavi@AltTech.Foundation</p>
+            <p className="">Pallavi@ AltTech.Foundation</p>
           </div>
 
           <div className="text-sm flex flex-col font-bah text-black  pl-6 lg:p-0   text-center ">
@@ -291,7 +291,7 @@ export default function Layout({ children }) {
               <a>Buildings Managed Better</a>
             </Link>
             <Link href="/about">
-              <a>About Alttech </a>
+              <a>About AltTech </a>
             </Link>
             <Link href="/solution">
               <a>Solutions</a>
@@ -300,7 +300,7 @@ export default function Layout({ children }) {
 
           <div className="text-sm flex flex-col font-bah text-black lg:p-0  text-center">
             <Link href="/approach">
-              <a>Alttech Approach</a>
+              <a> AltTech Approach</a>
             </Link>
             <Link href="/engage">
               <a>How to Engage</a>
@@ -330,14 +330,14 @@ export default function Layout({ children }) {
               FIND US ON
             </p>
             <div className="md:mt-0 mt-5 grid-cols-2 gap-2 flex justify-center lg:inline-grid  ">
-            <a
-                    className="hover:scale-105 transition-all"
-                    href="https://www.facebook.com/profile.php?id=100087965530818"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src="/icons/facebook.gif" className="w-8 h-8" alt="" />
-                  </a>
+              <a
+                className="hover:scale-105 transition-all"
+                href="https://www.facebook.com/profile.php?id=100087965530818"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="/icons/facebook.gif" className="w-8 h-8" alt="" />
+              </a>
               <a
                 className="hover:scale-105 transition-all"
                 href=""
@@ -368,7 +368,7 @@ export default function Layout({ children }) {
         </div>
 
         <div className="mx-auto  text-center font-bah  text-sm text-zinc-400 pt-4 lg:pt-0 lg:p-0 p-4 pl-6">
-          <p>Alttech Consortium </p>
+          <p> AltTech Consortium </p>
           <p>
             Copyright © 2022. All Rights Reserved. Designed by Deedbee Social
             Ventures.

@@ -73,7 +73,7 @@ function SolutionOne() {
  mt-4 "
                   >
                     ✅ Save half the energy you use in an RO system with the
-                    Air2Water installation Alttech offers
+                    Air2Water installation AltTech offers
                   </p>
                 </div>
               </div>
@@ -87,7 +87,7 @@ function SolutionOne() {
                       <img src="/icon/eclo.png" alt="" />
                     </div>
                   </div>
-                  <p className="text-center">Alttech ogical</p>
+                  <p className="text-center"> AltTech ogical</p>
                   <p className="text-black text-justify h-fit   mt-4 ">
                     ✅ Reduce reliance on borewell or city supply or tankers.
                   </p>

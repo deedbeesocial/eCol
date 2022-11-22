@@ -49,15 +49,15 @@ export default function Engage() {
           <div className="flex flex-col mb-16 sm:text-center">
             <div className="max-w-xl md:mx-auto sm:text-center lg:max-w-2xl">
               <h2 className="text-3xl text-black text-center mt-14">
-                How do you engage with Alttech ?
+                How do you engage with AltTech ?
               </h2>
             </div>
           </div>
           <div className="space-y-4 ">
-            <Item title="What are buildings that qualify for Alttech Solutions??">
+            <Item title="What are buildings that qualify for  AltTech Solutions??">
               Buildings with high energy or water use is strongly urged to fill
               the Data Form. Your application will be followed by an NDA between
-              your Company and Alttech India. If you are an SME, we will sign
+              your Company and AltTech India. If you are an SME, we will sign
               the NDA including your and your MSME cluster’s stakeholders
               name(s).
             </Item>
@@ -68,19 +68,19 @@ export default function Engage() {
               room to grow with a derivative for the business.
             </Item>
             <Item title="What are the key areas we need to focus before applying?">
-              Alttech is an ideas accelerator to bring efficiency in resource
-              use in your company. Alttech India has a funding mechanism to
+              AltTech is an ideas accelerator to bring efficiency in resource
+              use in your company. AltTech India has a funding mechanism to
               support potential for such resource efficiency on water, energy,
               waste, air management or other areas of process manufacture on
-              operations in your company. Alttech , upon evaluation, brings in
+              operations in your company. AltTech , upon evaluation, brings in
               ideas and solutions on smart clean technologies either for
               reduction in use of resources or for local generation of energy or
-              water or for waste management. Alttech will bring in integrated
+              water or for waste management. AltTech will bring in integrated
               A.I. and/or smart technologies where applicable to enhance the
               effectiveness of solutions.
             </Item>
             <Item title="What type of support does the building owner-company receive?">
-              Alttech India, with its battery of green leaders and experts,
+              AltTech India, with its battery of green leaders and experts,
               provides immeasurable and priceless support in terms of:
               <ul>
                 <li>
@@ -100,21 +100,21 @@ export default function Engage() {
                 <li>
                   - Meeting stakeholders within the company and external, to
                   explain the potential for savings and the investment returns
-                  that Alttech solutions offer.{" "}
+                  that AltTech solutions offer.{" "}
                 </li>
                 <li>
                   - Funding, depending on the budget required for the solutions,
-                  with a structured exit of Alttech ’s investment at attractive
+                  with a structured exit of AltTech ’s investment at attractive
                   costs.{" "}
                 </li>
               </ul>
             </Item>
             <Item title="Any support period?">
-              Alttech selects solutions depending on how to accelerate the ideas
+              AltTech selects solutions depending on how to accelerate the ideas
               that will bring such savings for the building or the manufacturing
               unit. Solution frameworks are offered in a timely manner, with
               solutions implementation cycle never exceeding 3 to 6 months. By
-              the end of the acceleration period, Alttech will organize
+              the end of the acceleration period, AltTech will organize
               demonstrations with all potential investors and stakeholders
               present. Once implemented, the savings are measured, monitored and
               managed.
