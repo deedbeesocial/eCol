@@ -259,14 +259,14 @@ export default function Layout({ children }) {
             </Link>
           </div>
 
-          <div className="text-sm p-4 lg:p-0 pl-6 text-black font-bah text-left">
+          {/* <div className="text-sm p-4 lg:p-0 pl-6 text-black font-bah text-left">
             <p className="font-semibold">Office</p>
 
             <p> AltTech Consortium, 252, 2nd Main, 5th Cross, </p>
             <p>RMV II Stage, Bengaluru KARNATAKA 560094</p>
 
             <p></p>
-          </div>
+          </div> */}
           {/* <div className="text-sm p-4 lg:p-0 pl-6  text-left">
             <p className="font-semibold">SFJ Computers Consulting</p>
             <p>

@@ -99,6 +99,7 @@ export default function Home() {
                   "Do Good. Do Well.",
                   "Accelerate sales with smart solutions for your clients.",
                   "Keep your business simple. Make the planet sacred.",
+                  "Look at 4x growth with AltTech's rare approach to mentoring market, and capital. ",
                   // "Connect, learn, collaborate with the auditing ecosystem and deliver world-class services",
                 ],
                 autoStart: true,
@@ -206,7 +207,7 @@ without the risk of your investing`}
         <div className="md:flex hidden justify-center">
           <img src="/solutions/solution.png" alt="" />
         </div>
-        <div className="flex md:hidden justify-center">
+        <div className="flex md:hidden  justify-center">
           <img src="/solutions/solutionmob.png" alt="" />
         </div>
       </section>
@@ -233,8 +234,8 @@ without the risk of your investing`}
             alt=""
           />
           <img
-            className="flex md:hidden"
-            src="/solutions/howitowrkmob.png"
+            className="flex w-[600px] md:hidden"
+            src="/solutions/howitowrkmob2.png"
             alt=""
           />
           <div className="flex justify-center mt-4 mb-20 ">

@@ -18,8 +18,7 @@ function Projectscard() {
                     Saving is your earning
                   </p>
                   <p className=" text-center text-white  mt-4 ">
-                    AltTech translates proof points on the cutting edge of
-                    resource efficiency. Post Covid, it is even more relevant.
+                  Every dollar saved is 3x of top line. We bring solutions and investments that save for the company, accelerates Eco solutions for the Solutions Provider, and so grows green markets with a User-Provider Bridge.
                   </p>
                 </div>
               </div>

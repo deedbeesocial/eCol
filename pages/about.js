@@ -14,7 +14,7 @@ function About() {
       image: "/about/uv.png",
       role: "",
       description:
-        "U V Krishna Mohan Rao, is an engineer with a Masters from the College of Engineering, University of Wisconsin, and IIM-A in the early 1980s. He worked for a decade with the legendary C K Prahalad of Michigan University. For nearly four decades, he has practised energy efficiency with solutions offered for a host of marquee companies in India, and 20 other countries, with over 3000 energy audits that he has presided over in a cross section of industry segments. He is currently energy advisor for 5 star hotel chains in India. UVK is actively involved in Green Business and to date covered over 200 million sq.ft for sustainability consulting including IT Parks, Malls, Hotels, Resorts, Residential and Temple complexes.",
+        "U V Krishna Mohan Rao, is an engineer with a Masters from the College of Engineering, University of Wisconsin, and IIM-A in the early 1980s. He worked for a decade with the legendary C K Prahalad of Michigan University. For nearly four decades, he has practised energy efficiency with solutions offered for a host of marquee companies in India, and 20 other countries, with over 3000 energy audits that he has presided over in a cross section of industry segments. He mentors strategic action for energy efficiency across several asset classes, both demand- and supply-side renewable. UVK is actively involved in Green Business and to date covered over 200 million sq.ft for sustainability consulting including IT Parks, Malls, Hotels, Resorts, Residential and Temple complexes.",
     },
     {
       name: "Pallavi Singh",
@@ -139,7 +139,7 @@ function About() {
           ></div>
           <div className="w-auto mt-16">
             <h2 className="text-3xl font-bah  title-font text-black   mb-4">
-            We help you Grow your Business and your Green Footprint
+              We help you Grow your Business and your Green Footprint
             </h2>
             <p className="prose text-justify text-black font-bah pt-2">
               Sustainability is a business approach to creating long-term value
@@ -174,9 +174,7 @@ function About() {
           savings with defined payback period. ​  AltTech Solutions synthesizes
           low-carbon strategies for buildings and built environments. We provide
           a wide array of solutions with wholesome approaches to design and
-          implementation. If yours is an old building, all the more reason for
-          you to retrofit solutions. New projects can gain from 'Doing it right
-          the first time'.`}
+          implementation. If yours is an existing building, all the more reason for you to retrofit solutions. New projects can gain from 'Doing it right the first time'.`}
               </p>
 
               {/* <p className="prose  font-bah lg:mb-0 mb-5 pt-8">

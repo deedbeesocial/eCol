@@ -6,36 +6,44 @@ import Link from "next/link";
 export default function Solution() {
   const items = [
     {
+      id: 0,
       name: " AltTech your shopping mall and see the saving you make",
       link: "/solution/solution1",
       image: "/so/so1.jpg",
       text: "",
     },
     {
+      id: 1,
       name: "Turn trash to cash in corporate food courts",
       link: "/solution/solution2",
       image: "/so/so2.jpg",
       text: "",
     },
     {
+      id: 2,
       name: "Harvest sky and air",
       link: "/solution/solution3",
       image: "/so/so3.jpg",
       text: "",
     },
     {
+      id: 3,
       name: "Upcycle way more than half the water you see",
       link: "/solution/solution4",
       image: "/so/so4.jpg",
       text: "",
     },
     {
-      name: "You produce you consume.You prosume",
+      id: 4,
+      name: "You produce",
+      name2: " You consume",
+      name3: "You prosume",
       link: "/solution/solution5",
       image: "/so/so5.jpg",
       text: "",
     },
     {
+      id: 5,
       name: "Get your assets to speak to you",
       link: "/solution/solution6",
       image: "/so/so6.jpg",
@@ -43,13 +51,15 @@ export default function Solution() {
     },
 
     {
-      name: "Revamps your central AC and clip a chunk",
+      id: 6,
+      name: "Revamp your central AC and clip a chunk",
       link: "/solution/solution8",
       image: "/so/so7.jpg",
       text: "",
     },
     {
-      name: "Transformers can being silent savings",
+      id: 7,
+      name: "Transformers can bring silent savings",
       link: "/solution/solution9",
       image: "/so/so8.jpg",
       text: "",
@@ -102,29 +112,59 @@ export default function Solution() {
             </h1>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-12 gap-4 pt-4 lg:pt-8">
-            {items.map(({ name, name2, image, id, link }) => (
-              <Link key={id} href={link}>
-                <div className="w-auto relative">
-                  <div className="relative w-full lg:h-96 h-72 flex justify-start items-end shadow-sm ease-in duration-150 hover:scale-[1.02] transition-all cursor-pointer">
-                    <Image
-                      layout="fill"
-                      alt=""
-                      objectFit="cover"
-                      src={image}
-                      className="brightness-75"
-                    />
-                    <div className="w-full h-1/2 absolute bottom-0 left-0 right-0 from-transparent bg-gradient-to-b to-black opacity-60"></div>
+            {items.map(({ name, image, id, link, name2, name3 }) => {
+              if (id === 4) {
+                return (
+                  <Link key={id} href={link}>
+                    <div className="w-auto relative">
+                      <div className="relative w-full lg:h-96 h-72 flex justify-start items-end shadow-sm ease-in duration-150 hover:scale-[1.02] transition-all cursor-pointer">
+                        <Image
+                          layout="fill"
+                          alt=""
+                          objectFit="cover"
+                          src={image}
+                          className="brightness-75"
+                        />
+                        <div className="w-full h-1/2 absolute bottom-0 left-0 right-0 from-transparent bg-gradient-to-b to-black opacity-60"></div>
 
-                    <div className="flex items-center justify-between z-40 w-full p-4 mb-10 ">
-                      <h1 className="text-4xl tracking-wide drop-shadow-md   text-white z-10 w-full">
-                        {name}
-                      </h1>
-                      {rightIcon}
+                        <div className="flex items-center justify-between z-40 w-full p-4 mb-10 ">
+                          <h1 className="text-2xl tracking-wide drop-shadow-md   text-white z-10 w-full">
+                            {name} <br /> {name2} <br /> {name3}
+                          </h1>
+
+                          {rightIcon}
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-              </Link>
-            ))}
+                  </Link>
+                );
+              } else {
+                return (
+                  <Link key={id} href={link}>
+                    <div className="w-auto relative">
+                      <div className="relative w-full lg:h-96 h-72 flex justify-start items-end shadow-sm ease-in duration-150 hover:scale-[1.02] transition-all cursor-pointer">
+                        <Image
+                          layout="fill"
+                          alt=""
+                          objectFit="cover"
+                          src={image}
+                          className="brightness-75"
+                        />
+                        <div className="w-full h-1/2 absolute bottom-0 left-0 right-0 from-transparent bg-gradient-to-b to-black opacity-60"></div>
+
+                        <div className="flex items-center justify-between z-40 w-full p-4 mb-10 ">
+                          <h1 className="text-2xl tracking-wide drop-shadow-md   text-white z-10 w-full">
+                            {name}
+                          </h1>
+
+                          {rightIcon}
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                );
+              }
+            })}
           </div>
         </div>
       </section>

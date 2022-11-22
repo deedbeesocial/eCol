@@ -8,9 +8,9 @@ export default function Approach() {
       <section className="md:container md:mx-auto">
         <div className="flex flex-col justify-center">
           <div className="flex justify-center my-5">
-            <p className="text-center p-5">
+            <p className="text-center text-justify p-5">
               AltTech synthesises solutions based on your unique needs. We
-              marshal a host of solutions to integrate <br /> a comprehensive
+              marshal a host of solutions to integrate  a comprehensive
               saving-and-sustainability plan for you.
             </p>
           </div>
