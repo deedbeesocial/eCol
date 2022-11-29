@@ -85,6 +85,15 @@ export default function Layout({ children }) {
       //   { name: "News", path: "/resource#News" },
       // ],
     },
+    {
+      name: "WE GIVE BACK",
+      path: "/altech",
+      // sub: [
+      //   { name: "Videos", path: "/resource#Videos" },
+      //   { name: "Blogs", path: "/resource#Blogs" },
+      //   { name: "News", path: "/resource#News" },
+      // ],
+    },
 
     // {
     //   name: "Team",
@@ -238,8 +247,8 @@ export default function Layout({ children }) {
         {children}
       </main>
 
-      <footer className=" md:container  font-bah bg-white border-t md:mx-auto  py-6 lg:py-7">
-        <div className="grid grid-cols-2 lg:flex lg:flex-row justify-around items-start">
+      <footer className="   font-bah bg-white border-t  py-6 lg:py-7">
+        <div className="grid md:container md:mx-auto  grid-cols-2 lg:flex lg:flex-row justify-around items-start">
           <div className="col-span-2 pb-4 md:pb-0 ">
             <Link href="/">
               <a className="flex flex-col justify-start items-center pl-6 lg:pl-0">
@@ -296,12 +305,13 @@ export default function Layout({ children }) {
             <Link href="/solution">
               <a>Solutions</a>
             </Link>
-          </div>
-
-          <div className="text-sm flex flex-col font-bah text-black lg:p-0  text-center">
             <Link href="/approach">
               <a> AltTech Approach</a>
             </Link>
+          </div>
+
+          <div className="text-sm flex flex-col font-bah text-black lg:p-0  text-center">
+           
             <Link href="/engage">
               <a>How to Engage</a>
             </Link>
@@ -311,6 +321,9 @@ export default function Layout({ children }) {
             {/* <Link href="/resources">
               <a>Resources</a>
             </Link> */}
+            <Link href="/altech">
+              <a>We Give Back </a>
+            </Link>
 
             <Link href="/contact">
               <a>Contact </a>

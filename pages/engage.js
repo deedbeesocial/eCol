@@ -43,16 +43,25 @@ export default function Engage() {
   };
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <section className="bg-lightgray">
-      <div className="py-16       lg:py-20">
+    <section className="bg-lightgray md:h-screen ">
+       <section
+        style={{
+          backgroundImage: `url(${"/down/handplant2.png"})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <div className="md:container flex flex-col justify-center h-72 md:mx-auto">
+          <p className="text-4xl tracking-wide  text-center  text-white">
+            {" "}
+            How do you engage with AltTech ?
+          </p>
+        </div>
+      </section>
+      <div className="py-16       lg:py-16">
         <div className="md:container  md:mx-auto">
-          <div className="flex flex-col mb-16 sm:text-center">
-            <div className="max-w-xl md:mx-auto sm:text-center lg:max-w-2xl">
-              <h2 className="text-3xl text-black text-center mt-14">
-                How do you engage with AltTech ?
-              </h2>
-            </div>
-          </div>
+          
           <div className="space-y-4 ">
             <Item title="What are buildings that qualify for  AltTech Solutions??">
               Buildings with high energy or water use is strongly urged to fill

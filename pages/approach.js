@@ -4,7 +4,25 @@ import Link from "next/link";
 
 export default function Approach() {
   return (
+    
     <section className="bg-lightgray">
+       <section
+        style={{
+          backgroundImage: `url(${"/down/handplant2.png"})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <div className="md:container flex flex-col justify-center h-72 md:mx-auto">
+          <p className="text-4xl tracking-wide  text-center  text-white">
+            {" "}
+            The AltTech Approach
+
+          </p>
+        
+        </div>
+      </section>
       <section className="md:container md:mx-auto">
         <div className="flex flex-col justify-center">
           <div className="flex justify-center my-5">
