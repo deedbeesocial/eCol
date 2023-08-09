@@ -17,6 +17,13 @@ function About() {
         "U V Krishna Mohan Rao, is an engineer with a Masters from the College of Engineering, University of Wisconsin, and IIM-A in the early 1980s. He worked for a decade with the legendary C K Prahalad of Michigan University. For nearly four decades, he has practised energy efficiency with solutions offered for a host of marquee companies in India, and 20 other countries, with over 3000 energy audits that he has presided over in a cross section of industry segments. He mentors strategic action for energy efficiency across several asset classes, both demand- and supply-side renewable. UVK is actively involved in Green Business and to date covered over 200 million sq.ft for sustainability consulting including IT Parks, Malls, Hotels, Resorts, Residential and Temple complexes.",
     },
     {
+      name: "Vijay Kanda",
+      image: "/about/kk.jpg",
+      role: "",
+      description:
+        "Vijay Kanda is a chemical engineer and a waste water professional with 25 years of work as a tech and marketing entrepreneur. Founder of 2W Solutions focussed on Water Conservation and Water Recycling, he has initiated and led several projects in Rainwater Harvesting and Water Recycling. He has focussed on providing solutions which make sense in the Indian context — which are low-cost, low-maintenance and low skill. He has worked on several different technologies, and innovations in wastewater. He has written a few articles on Climate Change and Governance. His work in low-cost housing and IT also holds him in good stead in his key role at AltTech Consortium and at AltTech Foundation.",
+    },
+    {
       name: "Pallavi Singh",
       image: "/about/palvi.jpg",
       role: "",
