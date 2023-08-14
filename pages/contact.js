@@ -78,6 +78,7 @@ export default function Contact() {
 
                   {/* <p>Tel : +9148483490</p> */}
                   <p>E-Mail ID: Hariharan@alttech.foundation</p>
+                  <p>Phone : +919148483490</p>
                 </div>
                 <div className="p-4 lg:p-0 pl-6 mr-6 "></div>
               </div>
