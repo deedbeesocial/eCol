@@ -166,7 +166,7 @@ function BlogTwo() {
             Like what you read? Engage by mailing{" "}
             <span className="font-semibold font-bah">
               {" "}
-              pallavi@ AltTech.foundation
+              Hariharan@alttech.foundation
             </span>
           </p>
           {/* <p className="prose leading-loose text-black text-justify font-bah mt-5"></p>

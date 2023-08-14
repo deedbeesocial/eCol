@@ -77,7 +77,7 @@ export default function Contact() {
                   <p>RMV II Stage, Bengaluru KARNATAKA 560094</p>
 
                   {/* <p>Tel : +9148483490</p> */}
-                  <p>E-Mail ID: Pallavi@ AltTech.Foundation</p>
+                  <p>E-Mail ID: Hariharan@alttech.foundation</p>
                 </div>
                 <div className="p-4 lg:p-0 pl-6 mr-6 "></div>
               </div>

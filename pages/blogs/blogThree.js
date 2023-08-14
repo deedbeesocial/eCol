@@ -306,7 +306,7 @@ function BlogThree() {
             Like what you read? Engage by mailing{" "}
             <span className="font-semibold font-bah">
               {" "}
-              pallavi@ AltTech.foundation
+              Hariharan@alttech.foundation
             </span>
           </p>
         </div>

@@ -23,13 +23,6 @@ function About() {
       description:
         "Vijay Kanda is a chemical engineer and a waste water professional with 25 years of work as a tech and marketing entrepreneur. Founder of 2W Solutions focussed on Water Conservation and Water Recycling, he has initiated and led several projects in Rainwater Harvesting and Water Recycling. He has focussed on providing solutions which make sense in the Indian context — which are low-cost, low-maintenance and low skill. He has worked on several different technologies, and innovations in wastewater. He has written a few articles on Climate Change and Governance. His work in low-cost housing and IT also holds him in good stead in his key role at AltTech Consortium and at AltTech Foundation.",
     },
-    {
-      name: "Pallavi Singh",
-      image: "/about/palvi.jpg",
-      role: "",
-      description:
-        "Pallavi Singh is an Urban and Regional Planner, and Research Associate at  AltTech.Foundation. She has worked on socio-economic and development aspects of urban development and governance for cities like Usilampatti in TN, Bhopal and Jabalpur in MP. She has been city representative for a project under Climate Action Framework for Smart cities  for Rourkela in Odisha. She has written a chapter for a book titled “Advances in Urbanism, Smart Cities and Sustainability” to be published by Taylor and Francis group/CRC Press.",
-    },
   ];
 
   return (
